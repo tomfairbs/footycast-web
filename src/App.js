@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
+import { VictoryBar } from 'victory';
 import './App.css';
 
+import { ratings } from './data';
+
 function App() {
+  const sortedRatings = ratings
+  .map(
+    ({ team, rating }) => ({ team, rating: rating - 90 })
+  )
+  .sort(
+    (a, b) => a.rating > b.rating ? -1 : 1,
+  );
+
+  console.log(sortedRatings);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="chart-example">
+        <VictoryBar
+            data={sortedRatings}
+            x="team"
+            y="rating"
+        />
+      </div>
     </div>
   );
 }
