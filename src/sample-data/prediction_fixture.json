@@ -1,0 +1,466 @@
+[
+    {
+        "id":15710,
+        "round":12,
+        "date":null,
+        "home":"Sydney",
+        "away":"GWS Giants",
+        "margin":-18.0533511238
+    },
+    {
+        "id":15711,
+        "round":12,
+        "date":null,
+        "home":"Geelong",
+        "away":"Port Adelaide",
+        "margin":4.0709784785
+    },
+    {
+        "id":15712,
+        "round":12,
+        "date":null,
+        "home":"North Melbourne",
+        "away":"Brisbane",
+        "margin":-22.5613675883
+    },
+    {
+        "id":15713,
+        "round":12,
+        "date":null,
+        "home":"Melbourne",
+        "away":"Collingwood",
+        "margin":9.6708051751
+    },
+    {
+        "id":15714,
+        "round":12,
+        "date":null,
+        "home":"Fremantle",
+        "away":"Carlton",
+        "margin":0.8589376756
+    },
+    {
+        "id":15715,
+        "round":12,
+        "date":null,
+        "home":"Western Bulldogs",
+        "away":"Adelaide",
+        "margin":26.3809349412
+    },
+    {
+        "id":15716,
+        "round":12,
+        "date":null,
+        "home":"St Kilda",
+        "away":"Essendon",
+        "margin":8.2816984896
+    },
+    {
+        "id":15717,
+        "round":12,
+        "date":null,
+        "home":"West Coast",
+        "away":"Hawthorn",
+        "margin":17.4221326861
+    },
+    {
+        "id":15718,
+        "round":12,
+        "date":null,
+        "home":"Richmond",
+        "away":"Gold Coast",
+        "margin":20.7676239569
+    },
+    {
+        "id":15719,
+        "round":13,
+        "date":null,
+        "home":"Gold Coast",
+        "away":"Carlton",
+        "margin":-1.7044112477
+    },
+    {
+        "id":15720,
+        "round":13,
+        "date":null,
+        "home":"Western Bulldogs",
+        "away":"Melbourne",
+        "margin":-8.5421697923
+    },
+    {
+        "id":15721,
+        "round":13,
+        "date":null,
+        "home":"Port Adelaide",
+        "away":"Hawthorn",
+        "margin":21.2468610936
+    },
+    {
+        "id":15722,
+        "round":13,
+        "date":null,
+        "home":"Essendon",
+        "away":"Richmond",
+        "margin":-24.0371812319
+    },
+    {
+        "id":15723,
+        "round":13,
+        "date":null,
+        "home":"Fremantle",
+        "away":"Sydney",
+        "margin":10.6488179884
+    },
+    {
+        "id":15724,
+        "round":13,
+        "date":null,
+        "home":"Adelaide",
+        "away":"Geelong",
+        "margin":-48.322298874
+    },
+    {
+        "id":15725,
+        "round":13,
+        "date":null,
+        "home":"Brisbane",
+        "away":"St Kilda",
+        "margin":11.3338832454
+    },
+    {
+        "id":15726,
+        "round":13,
+        "date":null,
+        "home":"West Coast",
+        "away":"GWS Giants",
+        "margin":7.7045943775
+    },
+    {
+        "id":15727,
+        "round":13,
+        "date":null,
+        "home":"Collingwood",
+        "away":"North Melbourne",
+        "margin":8.7135271347
+    },
+    {
+        "id":15728,
+        "round":14,
+        "date":null,
+        "home":"Hawthorn",
+        "away":"Essendon",
+        "margin":3.519901025
+    },
+    {
+        "id":15729,
+        "round":14,
+        "date":null,
+        "home":"Richmond",
+        "away":"West Coast",
+        "margin":3.0951475208
+    },
+    {
+        "id":15730,
+        "round":14,
+        "date":null,
+        "home":"Western Bulldogs",
+        "away":"Geelong",
+        "margin":-21.9413639328
+    },
+    {
+        "id":15731,
+        "round":14,
+        "date":null,
+        "home":"Port Adelaide",
+        "away":"Sydney",
+        "margin":29.5826739087
+    },
+    {
+        "id":15732,
+        "round":14,
+        "date":null,
+        "home":"Fremantle",
+        "away":"GWS Giants",
+        "margin":-7.4045331354
+    },
+    {
+        "id":15733,
+        "round":14,
+        "date":null,
+        "home":"Melbourne",
+        "away":"St Kilda",
+        "margin":7.1568479669
+    },
+    {
+        "id":15734,
+        "round":14,
+        "date":null,
+        "home":"Carlton",
+        "away":"Collingwood",
+        "margin":-0.7937727588
+    },
+    {
+        "id":15735,
+        "round":14,
+        "date":null,
+        "home":"Gold Coast",
+        "away":"North Melbourne",
+        "margin":6.2153431282
+    },
+    {
+        "id":15736,
+        "round":15,
+        "date":null,
+        "home":"Hawthorn",
+        "away":"Adelaide",
+        "margin":23.0044593019
+    },
+    {
+        "id":15737,
+        "round":15,
+        "date":null,
+        "home":"West Coast",
+        "away":"Essendon",
+        "margin":20.9420337111
+    },
+    {
+        "id":15738,
+        "round":15,
+        "date":null,
+        "home":"Richmond",
+        "away":"Fremantle",
+        "margin":18.2042750337
+    },
+    {
+        "id":15739,
+        "round":15,
+        "date":null,
+        "home":"Sydney",
+        "away":"Melbourne",
+        "margin":-20.2544582467
+    },
+    {
+        "id":15740,
+        "round":15,
+        "date":null,
+        "home":"GWS Giants",
+        "away":"Carlton",
+        "margin":8.263470811
+    },
+    {
+        "id":15741,
+        "round":15,
+        "date":null,
+        "home":"Brisbane",
+        "away":"Collingwood",
+        "margin":13.8478404536
+    },
+    {
+        "id":15742,
+        "round":16,
+        "date":null,
+        "home":"North Melbourne",
+        "away":"Port Adelaide",
+        "margin":-27.7125479718
+    },
+    {
+        "id":15743,
+        "round":16,
+        "date":null,
+        "home":"St Kilda",
+        "away":"Hawthorn",
+        "margin":4.7617974647
+    },
+    {
+        "id":15744,
+        "round":16,
+        "date":null,
+        "home":"Geelong",
+        "away":"Essendon",
+        "margin":28.837740597
+    },
+    {
+        "id":15745,
+        "round":16,
+        "date":null,
+        "home":"Western Bulldogs",
+        "away":"West Coast",
+        "margin":-14.0456570468
+    },
+    {
+        "id":15746,
+        "round":16,
+        "date":null,
+        "home":"Melbourne",
+        "away":"Fremantle",
+        "margin":9.6056402583
+    },
+    {
+        "id":15747,
+        "round":16,
+        "date":null,
+        "home":"Adelaide",
+        "away":"GWS Giants",
+        "margin":-32.7219976106
+    },
+    {
+        "id":15748,
+        "round":16,
+        "date":null,
+        "home":"Carlton",
+        "away":"Sydney",
+        "margin":9.7898803128
+    },
+    {
+        "id":15749,
+        "round":16,
+        "date":null,
+        "home":"Brisbane",
+        "away":"Gold Coast",
+        "margin":16.34602446
+    },
+    {
+        "id":15750,
+        "round":17,
+        "date":null,
+        "home":"St Kilda",
+        "away":"West Coast",
+        "margin":-12.6603352215
+    },
+    {
+        "id":15751,
+        "round":17,
+        "date":null,
+        "home":"Geelong",
+        "away":"Richmond",
+        "margin":4.8005593652
+    },
+    {
+        "id":15752,
+        "round":17,
+        "date":null,
+        "home":"North Melbourne",
+        "away":"Fremantle",
+        "margin":-8.7786920515
+    },
+    {
+        "id":15753,
+        "round":17,
+        "date":null,
+        "home":"Port Adelaide",
+        "away":"Essendon",
+        "margin":24.7667621186
+    },
+    {
+        "id":15754,
+        "round":17,
+        "date":null,
+        "home":"GWS Giants",
+        "away":"Melbourne",
+        "margin":-2.2011071229
+    },
+    {
+        "id":15755,
+        "round":17,
+        "date":null,
+        "home":"Carlton",
+        "away":"Adelaide",
+        "margin":24.4585267996
+    },
+    {
+        "id":15756,
+        "round":17,
+        "date":null,
+        "home":"Hawthorn",
+        "away":"Western Bulldogs",
+        "margin":-3.3764756393
+    },
+    {
+        "id":15757,
+        "round":17,
+        "date":null,
+        "home":"Sydney",
+        "away":"Brisbane",
+        "margin":-24.4314935252
+    },
+    {
+        "id":15758,
+        "round":17,
+        "date":null,
+        "home":"Collingwood",
+        "away":"Gold Coast",
+        "margin":2.4981840064
+    },
+    {
+        "id":15759,
+        "round":18,
+        "date":null,
+        "home":"Adelaide",
+        "away":"Richmond",
+        "margin":-43.5217395088
+    },
+    {
+        "id":15760,
+        "round":18,
+        "date":null,
+        "home":"Brisbane",
+        "away":"Carlton",
+        "margin":14.6416132124
+    },
+    {
+        "id":15761,
+        "round":18,
+        "date":null,
+        "home":"Collingwood",
+        "away":"Port Adelaide",
+        "margin":-18.9990208371
+    },
+    {
+        "id":15762,
+        "round":18,
+        "date":null,
+        "home":"Essendon",
+        "away":"Melbourne",
+        "margin":-15.4385464566
+    },
+    {
+        "id":15763,
+        "round":18,
+        "date":null,
+        "home":"Fremantle",
+        "away":"Western Bulldogs",
+        "margin":-1.0634704661
+    },
+    {
+        "id":15764,
+        "round":18,
+        "date":null,
+        "home":"Hawthorn",
+        "away":"Gold Coast",
+        "margin":0.25034375
+    },
+    {
+        "id":15765,
+        "round":18,
+        "date":null,
+        "home":"North Melbourne",
+        "away":"West Coast",
+        "margin":-23.8878195643
+    },
+    {
+        "id":15766,
+        "round":18,
+        "date":null,
+        "home":"St Kilda",
+        "away":"GWS Giants",
+        "margin":-4.955740844
+    },
+    {
+        "id":15767,
+        "round":18,
+        "date":null,
+        "home":"Sydney",
+        "away":"Geelong",
+        "margin":-33.6536523872
+    }
+]

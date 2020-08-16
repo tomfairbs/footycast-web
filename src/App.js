@@ -1,31 +1,41 @@
 import React from 'react';
-import { VictoryBar } from 'victory';
+import { VictoryScatter } from 'victory';
 import './App.css';
 
-import { ratings } from './data';
+import * as sampleData from './sample-data';
+import { TeamLogo } from './components';
+import { TEAMS } from './core';
 
-function App() {
-  const sortedRatings = ratings
-  .map(
-    ({ team, rating }) => ({ team, rating: rating - 90 })
-  )
-  .sort(
-    (a, b) => a.rating > b.rating ? -1 : 1,
-  );
+const App = () => {
+    const {
+        currentRatings,
+        predictionFixture,
+        ratingsByRound,
+        rounds,
+    } = sampleData;
 
-  console.log(sortedRatings);
+    const sortedRatings = currentRatings
+        .map(
+            ({ team, rating }) => ({ team, rating: rating - 90 })
+        )
+        .sort(
+            (a, b) => a.rating > b.rating ? -1 : 1,
+        );
 
-  return (
-    <div className="App">
-      <div className="chart-example">
-        <VictoryBar
-            data={sortedRatings}
-            x="team"
-            y="rating"
-        />
-      </div>
-    </div>
-  );
+    return (
+        <div className="App">
+            <div className="chart-example">
+                <VictoryScatter
+                    horizontal
+                    data={sortedRatings}
+                    maxDomain={{ y: 50 }}
+                    labels={({ datum }) => datum.team}
+                    x="team"
+                    y="rating"
+                />
+            </div>
+        </div>
+    );
 }
 
 export default App;

@@ -1,3 +1,7 @@
+.App {
+  padding: 32px;
+}
+
 .chart-example {
-  width: 800px;
+  width: 600px;
 }
