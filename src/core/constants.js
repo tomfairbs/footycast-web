@@ -1,13 +1,15 @@
+export const NOTIONAL_AVG_RATING = 90;
+
 export const TEAMS = {
     ADELAIDE: 'Adelaide',
     BRISBANE: 'Brisbane',
-    BULLDOGS: 'Bulldogs',
+    BULLDOGS: 'Western Bulldogs',
     CARLTON: 'Carlton',
     COLLINGWOOD: 'Collingwood',
     ESSENDON: 'Essendon',
     FREMANTLE: 'Fremantle',
     GEELONG: 'Geelong',
-    GIANTS: 'Greater Western Sydney',
+    GIANTS: 'GWS Giants',
     GOLD_COAST: 'Gold Coast',
     HAWTHORN: 'Hawthorn',
     MELBOURNE: 'Melbourne',

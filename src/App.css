@@ -3,5 +3,6 @@
 }
 
 .chart-example {
-    width: 600px;
+    width: 960px;
+    border: 1px solid #ddd;
 }

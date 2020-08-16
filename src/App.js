@@ -1,10 +1,22 @@
 import React from 'react';
-import { VictoryScatter } from 'victory';
 import './App.css';
 
+import {
+    VictoryChart,
+    VictoryScatter,
+    VictoryAxis,
+    VictoryTheme,
+} from 'victory';
+
 import * as sampleData from './sample-data';
-import { TeamLogo } from './components';
-import { TEAMS } from './core';
+import { TeamSvg } from './components';
+import {
+    TEAMS,
+    getMinRating,
+    getMaxRating,
+    sortByRating,
+    toRatingDiff
+} from './core';
 
 const App = () => {
     const {
@@ -15,27 +27,36 @@ const App = () => {
     } = sampleData;
 
     const sortedRatings = currentRatings
-        .map(
-            ({ team, rating }) => ({ team, rating: rating - 90 })
-        )
-        .sort(
-            (a, b) => a.rating > b.rating ? -1 : 1,
-        );
+        .map(toRatingDiff)
+        .sort(sortByRating);
 
     return (
         <div className="App">
             <div className="chart-example">
-                <VictoryScatter
-                    horizontal
-                    data={sortedRatings}
-                    maxDomain={{ y: 50 }}
-                    labels={({ datum }) => datum.team}
-                    x="team"
-                    y="rating"
-                />
-                {Object.values(TEAMS).map(
-                    team => <TeamLogo team={team} />
-                )}
+                <VictoryChart
+                    theme={VictoryTheme.material}
+                    domainPadding={{ x: [32, 0] }}
+                    domain={{
+                        y: [
+                            getMinRating(sortedRatings) - 10,
+                            getMaxRating(sortedRatings) + 10,
+                        ]
+                    }}
+                >
+                    <VictoryAxis
+                        dependentAxis
+                        crossAxis={false}
+                        tickCount={10}
+                        style={{ tickLabels: { fontSize: 10 } }}
+                    />
+                    <VictoryScatter
+                        data={sortedRatings}
+                        dataComponent={<TeamSvg />}
+                        style={{ labels: { marginTop: 32 } }}
+                        x="team"
+                        y="rating"
+                    />
+                </VictoryChart>
             </div>
         </div>
     );

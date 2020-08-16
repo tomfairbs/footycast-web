@@ -12,8 +12,8 @@ const Image = styled.div`
     background-repeat: no-repeat;
 `;
 
-const TeamLogo = ({ team }) => (
-    <Image team={team} />
+const TeamLogo = ({ team, ...props }) => (
+    <Image team={team} {...props} />
 );
 
 export default TeamLogo;
