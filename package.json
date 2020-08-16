@@ -1,18 +1,23 @@
 {
     "name": "footycast-web",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "private": true,
+    "description": "What if the Footycast had a cheeky lil website?",
+    "main": "src/index.js",
+    "repository": "https://github.com/tomfairbs/footycast-web",
+    "author": "Tom Fairbairn",
+    "license": "MIT",
     "dependencies": {
-        "@testing-library/jest-dom": "^4.2.4",
-        "@testing-library/react": "^9.3.2",
-        "@testing-library/user-event": "^7.1.2",
+        "@babel/preset-env": "^7.11.0",
+        "@babel/preset-react": "^7.10.4",
+        "parcel-bundler": "^1.12.4",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
-        "react-scripts": "3.4.3",
         "styled-components": "^5.1.1",
         "victory": "^35.0.8"
     },
     "devDependencies": {
+        "@babel/core": "^7.11.1",
         "babel-plugin-module-resolver": "^4.0.0",
         "eslint": "^6.6.0",
         "eslint-config-airbnb": "^18.2.0",
@@ -21,13 +26,7 @@
         "eslint-plugin-react-hooks": "^4.0.8"
     },
     "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    },
-    "eslintConfig": {
-        "extends": "react-app"
+        "start": "parcel src/index.html"
     },
     "browserslist": {
         "production": [

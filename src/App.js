@@ -33,6 +33,9 @@ const App = () => {
                     x="team"
                     y="rating"
                 />
+                {Object.values(TEAMS).map(
+                    team => <TeamLogo team={team} />
+                )}
             </div>
         </div>
     );
