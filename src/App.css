@@ -1,8 +1,10 @@
-.App {
-    padding: 32px;
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-.chart-example {
-    width: 960px;
-    border: 1px solid #ddd;
+.app {
+    position: relative;
+    height: 100%;
 }
