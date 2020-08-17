@@ -22,32 +22,28 @@ const Ratings = () => {
         .sort(sortByRating);
 
     return (
-        <div className="chart-example">
-            <VictoryChart
-                theme={VictoryTheme.material}
-                domainPadding={{ x: [32, 0] }}
-                domain={{
-                    y: [
-                        getMinRating(sortedRatings) - 10,
-                        getMaxRating(sortedRatings) + 10,
-                    ]
-                }}
-            >
-                <VictoryAxis
-                    dependentAxis
-                    crossAxis={false}
-                    tickCount={10}
-                    style={{ tickLabels: { fontSize: 10 } }}
-                />
-                <VictoryScatter
-                    data={sortedRatings}
-                    dataComponent={<TeamSvg />}
-                    style={{ labels: { marginTop: 32 } }}
-                    x="team"
-                    y="rating"
-                />
-            </VictoryChart>
-        </div>
+        <VictoryChart
+            theme={VictoryTheme.material}
+            domain={{
+                y: [
+                    getMinRating(sortedRatings) - 10,
+                    getMaxRating(sortedRatings) + 10,
+                ]
+            }}
+        >
+            <VictoryAxis
+                dependentAxis
+                crossAxis={false}
+                tickCount={10}
+                style={{ tickLabels: { fontSize: 10 } }}
+            />
+            <VictoryScatter
+                data={sortedRatings}
+                dataComponent={<TeamSvg />}
+                x="team"
+                y="rating"
+            />
+        </VictoryChart>
     );
 };
 
