@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Wrapper = styled.nav`
-    margin-bottom: 32px;
+    margin-bottom: 64px;
 `;
 
 const NavItems = styled.ul`
@@ -45,6 +45,9 @@ const Navigation = () => (
             </NavItem>
             <NavItem>
                 <NavLink to="/ladder">Ladder</NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink to="/fixture">Fixture</NavLink>
             </NavItem>
         </NavItems>
     </Wrapper>
