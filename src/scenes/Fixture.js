@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import ReactSelect from 'react-select';
 import { VictoryTheme, VictoryPie } from 'victory';
 
 import { predictionFixture } from '../sample-data';
@@ -29,30 +30,24 @@ const Teams = styled.div`
 
 const Fixture = () => {
     const remainingRounds = [...new Set(predictionFixture.map(match => `${match.round}`))];
-    const [round, setRound] = useState(remainingRounds[0]);
+    const roundOptions = remainingRounds.map(
+        round => ({ label: `Round ${round}`, value: round }),
+    );
+    const [selectedRound, setSelectedRound] = useState(roundOptions[0]);
 
     const matches = predictionFixture.filter(
-        match => match.round.toString() === round,
+        match => match.round.toString() === selectedRound.value,
     );
 
     return (
         <>
             <Filters>
-                <select
-                    value={round}
-                    onChange={e => setRound(e.target.value)}
-                >
-                    {remainingRounds.map(
-                        round => (
-                            <option
-                                key={round}
-                                value={round}
-                            >
-                                Round {round}
-                            </option>
-                        ),
-                    )}
-                </select>
+                <ReactSelect
+                    value={selectedRound}
+                    options={roundOptions}
+                    onChange={option => setSelectedRound(option)}
+                    styles={{ container: base => ({ ...base, width: 160 }) }}
+                />
             </Filters>
             <Matches>
                 {matches.map(

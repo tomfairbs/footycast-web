@@ -1,5 +1,3 @@
-import { NOTIONAL_AVG_RATING } from "./constants";
-
 export const getMinRating = ratings => ratings.reduce(
     (acc, cur) => (
         cur.rating < acc ? cur.rating : acc
@@ -15,12 +13,6 @@ export const getMaxRating = ratings => ratings.reduce(
 export const sortByRating = (a, b) => (
     a.rating < b.rating ? -1 : 1
 );
-
-// Map a team's raw rating to an average-relative rating
-export const toRatingDiff = ({ team, rating }) => ({
-    team,
-    rating: rating - NOTIONAL_AVG_RATING,
-});
 
 export const addOrdinalSuffix = n => {
     const s = ['th', 'st', 'nd', 'rd'];

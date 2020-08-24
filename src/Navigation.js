@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Wrapper = styled.nav`
-    margin-bottom: 64px;
+    margin-bottom: 32px;
 `;
 
 const NavItems = styled.ul`

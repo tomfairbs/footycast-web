@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import {
     VictoryGroup,
     VictoryTheme,
@@ -11,10 +11,12 @@ import {
 import { ladder } from '../sample-data';
 import { TeamLogo } from '../components';
 import { addOrdinalSuffix } from '../core';
+import ChartTitle from '../components/ChartTitle';
+import ChartDescription from '../components/ChartDescription';
 
 const gridTemplateColumns = `
-    minmax(64px, 1fr)
-    minmax(192px, 3fr)
+    minmax(96px, 96px)
+    minmax(128px, 256px)
     minmax(128px, 2fr)
     minmax(128px, 2fr)
     minmax(128px, 2fr)
@@ -22,8 +24,7 @@ const gridTemplateColumns = `
 `;
 
 const Wrapper = styled.div`
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+    max-width: 1200px;
 `;
 
 const LadderHeader = styled.div`
@@ -35,19 +36,29 @@ const LadderHeader = styled.div`
 const LadderRow = styled.div`
     display: grid;
     grid-template-columns: ${gridTemplateColumns};
-    padding: 16px 0;
     border-top: 1px solid #eee;
+    &:last-child {
+        border-bottom: 1px solid #eee;
+    }
 `;
 
 const HeaderCell = styled.div`
     font-weight: 600;
+    font-size: 14px;
 `;
 
 const Cell = styled.div`
-    display: grid;
+    display: flex;
     align-items: center;
     height: 80px;
-    font-size: 21px;
+    font-size: 18px;
+    padding-right: 16px;
+`;
+
+const PercChange = styled.span`
+    margin-left: 8px;
+    color: ${p => p.up ? '#31a300' : '#c71b00'};
+    font-size: 16px;
 `;
 
 const getYUpperBound = positions => (
@@ -66,6 +77,10 @@ const Ladder = () => {
 
     return (
         <Wrapper>
+            <ChartTitle>Ladder</ChartTitle>
+            <ChartDescription>
+                Positional probabilities, top 8/4 chances, and likely win count.
+            </ChartDescription>
             <LadderHeader>
                 <HeaderCell>Team</HeaderCell>
                 <HeaderCell>Likely position</HeaderCell>
@@ -75,25 +90,34 @@ const Ladder = () => {
                 <HeaderCell>Predicted %</HeaderCell>
             </LadderHeader>
             {sortedTeams.map(
-                team => (
-                    <LadderRow key={team.team}>
+                ({
+                    team,
+                    positions,
+                    topEight,
+                    topEightPre,
+                    topFour,
+                    topFourPre,
+                    wins,
+                    perc,
+                }) => (
+                    <LadderRow key={team}>
                         <Cell>
-                            {<TeamLogo team={team.team} />}
+                            {<TeamLogo team={team} />}
                         </Cell>
                         <Cell>
                             <VictoryGroup
                                 height={80}
                                 padding={{ top: 16, right: 32 }}
                                 containerComponent={<VictoryVoronoiContainer />}
-                                domain={{ x: [1, 18], y: [0, getYUpperBound(team.positions)] }}
+                                domain={{ x: [1, 18], y: [0, getYUpperBound(positions)] }}
                                 theme={VictoryTheme.material}
                             >
                                 <VictoryBar
                                     labelComponent={<VictoryTooltip constrainToVisibleArea />}
-                                    labels={team.positions.map(
+                                    labels={positions.map(
                                         ({ position, chance }) => `${addOrdinalSuffix(position)} - ${chance}%`
                                     )}
-                                    data={team.positions}
+                                    data={positions}
                                     x="position"
                                     y="chance"
                                     alignment="start"
@@ -101,16 +125,26 @@ const Ladder = () => {
                             </VictoryGroup>
                         </Cell>
                         <Cell>
-                            {team.topEight}%
+                            {topEight}%
+                            <PercChange up={topEight > topEightPre}>
+                                {topEight - topEightPre === 0
+                                    ? '-'
+                                    : `(${topEight - topEightPre < 0 ? '-' : '+'}${Math.abs(topEight - topEightPre)}%)`}
+                            </PercChange>
                         </Cell>
                         <Cell>
-                            {team.topFour}%
+                            {topFour}%
+                            <PercChange up={topFour > topFourPre}>
+                                {topFour - topFourPre === 0
+                                    ? '-'
+                                    : `(${topFour - topFourPre < 0 ? '-' : '+'}${Math.abs(topFour - topFourPre)}%)`}
+                            </PercChange>
                         </Cell>
                         <Cell>
-                            {Math.round(team.wins)}
+                            {Math.round(wins)}
                         </Cell>
                         <Cell>
-                            {Math.round(team.perc * 10 * 100) / 10}%
+                            {Math.round(perc * 10 * 100) / 10}%
                         </Cell>
                     </LadderRow>
                 )

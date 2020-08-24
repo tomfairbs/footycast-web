@@ -1,938 +1,908 @@
-[
-    {
-        "id":15615,
-        "homeTeam":"Richmond",
-        "awayTeam":"Carlton",
-        "homeRating":123.9994239737,
-        "awayRating":79.3724089795,
-        "round":1,
-        "year":2020
-    },
-    {
-        "id":15616,
-        "homeTeam":"Western Bulldogs",
-        "awayTeam":"Collingwood",
-        "homeRating":98.5534378426,
-        "awayRating":99.3055256283,
-        "round":1,
-        "year":2020
-    },
-    {
-        "id":15617,
-        "homeTeam":"Essendon",
-        "awayTeam":"Fremantle",
-        "homeRating":80.7305521115,
-        "awayRating":73.3530867835,
-        "round":1,
-        "year":2020
-    },
-    {
-        "id":15618,
-        "homeTeam":"Adelaide",
-        "awayTeam":"Sydney",
-        "homeRating":84.3790480574,
-        "awayRating":95.4149494918,
-        "round":1,
-        "year":2020
-    },
-    {
-        "id":15619,
-        "homeTeam":"GWS Giants",
-        "awayTeam":"Geelong",
-        "homeRating":90.4080275774,
-        "awayRating":104.838325134,
-        "round":1,
-        "year":2020
-    },
-    {
-        "id":15620,
-        "homeTeam":"Gold Coast",
-        "awayTeam":"Port Adelaide",
-        "homeRating":47.0099784747,
-        "awayRating":94.8446485734,
-        "round":1,
-        "year":2020
-    },
-    {
-        "id":15621,
-        "homeTeam":"North Melbourne",
-        "awayTeam":"St Kilda",
-        "homeRating":91.0532804498,
-        "awayRating":77.5098076055,
-        "round":1,
-        "year":2020
-    },
-    {
-        "id":15622,
-        "homeTeam":"Hawthorn",
-        "awayTeam":"Brisbane",
-        "homeRating":108.1773623077,
-        "awayRating":94.4640355132,
-        "round":1,
-        "year":2020
-    },
-    {
-        "id":15623,
-        "homeTeam":"West Coast",
-        "awayTeam":"Melbourne",
-        "homeRating":100.2285285635,
-        "awayRating":76.3575729327,
-        "round":1,
-        "year":2020
-    },
-    {
-        "id":15624,
-        "homeTeam":"Collingwood",
-        "awayTeam":"Richmond",
-        "homeRating":109.5551080712,
-        "awayRating":119.8740209748,
-        "round":2,
-        "year":2020
-    },
-    {
-        "id":15625,
-        "homeTeam":"Geelong",
-        "awayTeam":"Hawthorn",
-        "homeRating":95.5522656226,
-        "awayRating":111.0346969488,
-        "round":2,
-        "year":2020
-    },
-    {
-        "id":15626,
-        "homeTeam":"Brisbane",
-        "awayTeam":"Fremantle",
-        "homeRating":91.6067008721,
-        "awayRating":73.6285798491,
-        "round":2,
-        "year":2020
-    },
-    {
-        "id":15627,
-        "homeTeam":"Carlton",
-        "awayTeam":"Melbourne",
-        "homeRating":83.4978119783,
-        "awayRating":75.7317640589,
-        "round":2,
-        "year":2020
-    },
-    {
-        "id":15628,
-        "homeTeam":"Port Adelaide",
-        "awayTeam":"Adelaide",
-        "homeRating":94.6777145536,
-        "awayRating":85.9862283443,
-        "round":2,
-        "year":2020
-    },
-    {
-        "id":15629,
-        "homeTeam":"Gold Coast",
-        "awayTeam":"West Coast",
-        "homeRating":47.1769124944,
-        "awayRating":100.8543374373,
-        "round":2,
-        "year":2020
-    },
-    {
-        "id":15630,
-        "homeTeam":"GWS Giants",
-        "awayTeam":"North Melbourne",
-        "homeRating":99.6940870887,
-        "awayRating":88.7445858809,
-        "round":2,
-        "year":2020
-    },
-    {
-        "id":15631,
-        "homeTeam":"Sydney",
-        "awayTeam":"Essendon",
-        "homeRating":93.8077692049,
-        "awayRating":80.4550590459,
-        "round":2,
-        "year":2020
-    },
-    {
-        "id":15632,
-        "homeTeam":"St Kilda",
-        "awayTeam":"Western Bulldogs",
-        "homeRating":79.8185021744,
-        "awayRating":88.3038553997,
-        "round":2,
-        "year":2020
-    },
-    {
-        "id":15633,
-        "homeTeam":"Richmond",
-        "awayTeam":"Hawthorn",
-        "homeRating":117.8102383941,
-        "awayRating":99.0346969488,
-        "round":3,
-        "year":2020
-    },
-    {
-        "id":15634,
-        "homeTeam":"Western Bulldogs",
-        "awayTeam":"GWS Giants",
-        "homeRating":78.8067847546,
-        "awayRating":93.5041868471,
-        "round":3,
-        "year":2020
-    },
-    {
-        "id":15635,
-        "homeTeam":"North Melbourne",
-        "awayTeam":"Sydney",
-        "homeRating":94.9344861225,
-        "awayRating":89.9372271731,
-        "round":3,
-        "year":2020
-    },
-    {
-        "id":15636,
-        "homeTeam":"Collingwood",
-        "awayTeam":"St Kilda",
-        "homeRating":111.6188906519,
-        "awayRating":89.3155728194,
-        "round":3,
-        "year":2020
-    },
-    {
-        "id":15637,
-        "homeTeam":"Geelong",
-        "awayTeam":"Carlton",
-        "homeRating":107.5522656226,
-        "awayRating":81.7446023944,
-        "round":3,
-        "year":2020
-    },
-    {
-        "id":15638,
-        "homeTeam":"Brisbane",
-        "awayTeam":"West Coast",
-        "homeRating":90.4110766675,
-        "awayRating":88.8543374373,
-        "round":3,
-        "year":2020
-    },
-    {
-        "id":15639,
-        "homeTeam":"Gold Coast",
-        "awayTeam":"Adelaide",
-        "homeRating":59.1769124944,
-        "awayRating":73.9862283443,
-        "round":3,
-        "year":2020
-    },
-    {
-        "id":15640,
-        "homeTeam":"Fremantle",
-        "awayTeam":"Port Adelaide",
-        "homeRating":74.8242040537,
-        "awayRating":106.6777145536,
-        "round":3,
-        "year":2020
-    },
-    {
-        "id":15641,
-        "homeTeam":"Sydney",
-        "awayTeam":"Western Bulldogs",
-        "homeRating":93.136678963,
-        "awayRating":86.5462651731,
-        "round":4,
-        "year":2020
-    },
-    {
-        "id":15642,
-        "homeTeam":"GWS Giants",
-        "awayTeam":"Collingwood",
-        "homeRating":85.7647064286,
-        "awayRating":115.9582270854,
-        "round":4,
-        "year":2020
-    },
-    {
-        "id":15643,
-        "homeTeam":"Port Adelaide",
-        "awayTeam":"West Coast",
-        "homeRating":106.1070124536,
-        "awayRating":83.1656852834,
-        "round":4,
-        "year":2020
-    },
-    {
-        "id":15644,
-        "homeTeam":"St Kilda",
-        "awayTeam":"Richmond",
-        "homeRating":84.9762363859,
-        "awayRating":107.655130105,
-        "round":4,
-        "year":2020
-    },
-    {
-        "id":15645,
-        "homeTeam":"Essendon",
-        "awayTeam":"Carlton",
-        "homeRating":84.3256010777,
-        "awayRating":87.3061350401,
-        "round":4,
-        "year":2020
-    },
-    {
-        "id":15646,
-        "homeTeam":"Gold Coast",
-        "awayTeam":"Fremantle",
-        "homeRating":71.1769124944,
-        "awayRating":75.3949061537,
-        "round":4,
-        "year":2020
-    },
-    {
-        "id":15647,
-        "homeTeam":"Brisbane",
-        "awayTeam":"Adelaide",
-        "homeRating":96.0997288215,
-        "awayRating":61.9862283443,
-        "round":4,
-        "year":2020
-    },
-    {
-        "id":15648,
-        "homeTeam":"Melbourne",
-        "awayTeam":"Geelong",
-        "homeRating":77.4849736428,
-        "awayRating":101.990732977,
-        "round":4,
-        "year":2020
-    },
-    {
-        "id":15649,
-        "homeTeam":"Hawthorn",
-        "awayTeam":"North Melbourne",
-        "homeRating":109.1898052379,
-        "awayRating":91.7350343326,
-        "round":4,
-        "year":2020
-    },
-    {
-        "id":15650,
-        "homeTeam":"Carlton",
-        "awayTeam":"St Kilda",
-        "homeRating":86.9100282476,
-        "awayRating":94.7120151298,
-        "round":5,
-        "year":2020
-    },
-    {
-        "id":15651,
-        "homeTeam":"Collingwood",
-        "awayTeam":"Essendon",
-        "homeRating":109.519522954,
-        "awayRating":84.7217078702,
-        "round":5,
-        "year":2020
-    },
-    {
-        "id":15652,
-        "homeTeam":"West Coast",
-        "awayTeam":"Sydney",
-        "homeRating":78.1539507174,
-        "awayRating":86.218596205,
-        "round":5,
-        "year":2020
-    },
-    {
-        "id":15653,
-        "homeTeam":"Geelong",
-        "awayTeam":"Gold Coast",
-        "homeRating":97.6895811101,
-        "awayRating":74.6205112263,
-        "round":5,
-        "year":2020
-    },
-    {
-        "id":15654,
-        "homeTeam":"Western Bulldogs",
-        "awayTeam":"North Melbourne",
-        "homeRating":93.4643479311,
-        "awayRating":94.4259885137,
-        "round":5,
-        "year":2020
-    },
-    {
-        "id":15655,
-        "homeTeam":"Brisbane",
-        "awayTeam":"Port Adelaide",
-        "homeRating":96.677028726,
-        "awayRating":111.1187470196,
-        "round":5,
-        "year":2020
-    },
-    {
-        "id":15656,
-        "homeTeam":"Adelaide",
-        "awayTeam":"Fremantle",
-        "homeRating":61.4089284397,
-        "awayRating":71.9513074218,
-        "round":5,
-        "year":2020
-    },
-    {
-        "id":15657,
-        "homeTeam":"Melbourne",
-        "awayTeam":"Richmond",
-        "homeRating":81.7861255096,
-        "awayRating":97.9193513612,
-        "round":5,
-        "year":2020
-    },
-    {
-        "id":15658,
-        "homeTeam":"GWS Giants",
-        "awayTeam":"Hawthorn",
-        "homeRating":92.20341056,
-        "awayRating":106.4988510568,
-        "round":5,
-        "year":2020
-    },
-    {
-        "id":15659,
-        "homeTeam":"Geelong",
-        "awayTeam":"Brisbane",
-        "homeRating":100.4757671334,
-        "awayRating":106.9653723848,
-        "round":6,
-        "year":2020
-    },
-    {
-        "id":15660,
-        "homeTeam":"Collingwood",
-        "awayTeam":"Hawthorn",
-        "homeRating":101.5599599373,
-        "awayRating":96.8397629575,
-        "round":6,
-        "year":2020
-    },
-    {
-        "id":15661,
-        "homeTeam":"Fremantle",
-        "awayTeam":"St Kilda",
-        "homeRating":73.8428316254,
-        "awayRating":96.7516177533,
-        "round":6,
-        "year":2020
-    },
-    {
-        "id":15662,
-        "homeTeam":"West Coast",
-        "awayTeam":"Adelaide",
-        "homeRating":86.5668798149,
-        "awayRating":59.5174042362,
-        "round":6,
-        "year":2020
-    },
-    {
-        "id":15663,
-        "homeTeam":"Melbourne",
-        "awayTeam":"Gold Coast",
-        "homeRating":79.6127706799,
-        "awayRating":71.834325203,
-        "round":6,
-        "year":2020
-    },
-    {
-        "id":15664,
-        "homeTeam":"Essendon",
-        "awayTeam":"North Melbourne",
-        "homeRating":92.6812708869,
-        "awayRating":84.4336603971,
-        "round":6,
-        "year":2020
-    },
-    {
-        "id":15665,
-        "homeTeam":"Port Adelaide",
-        "awayTeam":"GWS Giants",
-        "homeRating":100.8304033609,
-        "awayRating":101.8624986594,
-        "round":6,
-        "year":2020
-    },
-    {
-        "id":15666,
-        "homeTeam":"Richmond",
-        "awayTeam":"Sydney",
-        "homeRating":100.0927061909,
-        "awayRating":77.8056671075,
-        "round":6,
-        "year":2020
-    },
-    {
-        "id":15667,
-        "homeTeam":"Carlton",
-        "awayTeam":"Western Bulldogs",
-        "homeRating":84.870425624,
-        "awayRating":103.4566760476,
-        "round":6,
-        "year":2020
-    },
-    {
-        "id":15668,
-        "homeTeam":"Geelong",
-        "awayTeam":"Collingwood",
-        "homeRating":107.1736881836,
-        "awayRating":107.0159205413,
-        "round":7,
-        "year":2020
-    },
-    {
-        "id":15669,
-        "homeTeam":"Essendon",
-        "awayTeam":"Western Bulldogs",
-        "homeRating":93.831748789,
-        "awayRating":91.4566760476,
-        "round":7,
-        "year":2020
-    },
-    {
-        "id":15670,
-        "homeTeam":"GWS Giants",
-        "awayTeam":"Brisbane",
-        "homeRating":98.2560795997,
-        "awayRating":100.2674513345,
-        "round":7,
-        "year":2020
-    },
-    {
-        "id":15671,
-        "homeTeam":"Sydney",
-        "awayTeam":"Gold Coast",
-        "homeRating":80.6630749242,
-        "awayRating":69.9900142984,
-        "round":7,
-        "year":2020
-    },
-    {
-        "id":15672,
-        "homeTeam":"Richmond",
-        "awayTeam":"North Melbourne",
-        "homeRating":97.2352983742,
-        "awayRating":83.2831824951,
-        "round":7,
-        "year":2020
-    },
-    {
-        "id":15673,
-        "homeTeam":"Carlton",
-        "awayTeam":"Port Adelaide",
-        "homeRating":96.870425624,
-        "awayRating":104.4368224206,
-        "round":7,
-        "year":2020
-    },
-    {
-        "id":15674,
-        "homeTeam":"Hawthorn",
-        "awayTeam":"Melbourne",
-        "homeRating":91.3838023534,
-        "awayRating":81.4570815846,
-        "round":7,
-        "year":2020
-    },
-    {
-        "id":15675,
-        "homeTeam":"Fremantle",
-        "awayTeam":"West Coast",
-        "homeRating":79.624588851,
-        "awayRating":87.7569846992,
-        "round":7,
-        "year":2020
-    },
-    {
-        "id":15676,
-        "homeTeam":"Adelaide",
-        "awayTeam":"St Kilda",
-        "homeRating":58.3272993519,
-        "awayRating":90.9698605277,
-        "round":7,
-        "year":2020
-    },
-    {
-        "id":15677,
-        "homeTeam":"Gold Coast",
-        "awayTeam":"Western Bulldogs",
-        "homeRating":78.5246264236,
-        "awayRating":100.3316905959,
-        "round":8,
-        "year":2020
-    },
-    {
-        "id":15678,
-        "homeTeam":"GWS Giants",
-        "awayTeam":"Richmond",
-        "homeRating":94.6583539466,
-        "awayRating":105.2448751984,
-        "round":8,
-        "year":2020
-    },
-    {
-        "id":15679,
-        "homeTeam":"North Melbourne",
-        "awayTeam":"Carlton",
-        "homeRating":75.2736056709,
-        "awayRating":97.7837049833,
-        "round":8,
-        "year":2020
-    },
-    {
-        "id":15680,
-        "homeTeam":"Sydney",
-        "awayTeam":"Hawthorn",
-        "homeRating":72.128462799,
-        "awayRating":80.7984581996,
-        "round":8,
-        "year":2020
-    },
-    {
-        "id":15681,
-        "homeTeam":"Port Adelaide",
-        "awayTeam":"St Kilda",
-        "homeRating":103.5235430613,
-        "awayRating":89.0413482926,
-        "round":8,
-        "year":2020
-    },
-    {
-        "id":15682,
-        "homeTeam":"Adelaide",
-        "awayTeam":"Essendon",
-        "homeRating":60.2558115871,
-        "awayRating":84.9567342407,
-        "round":8,
-        "year":2020
-    },
-    {
-        "id":15683,
-        "homeTeam":"West Coast",
-        "awayTeam":"Collingwood",
-        "homeRating":92.1305055295,
-        "awayRating":111.4474740698,
-        "round":8,
-        "year":2020
-    },
-    {
-        "id":15684,
-        "homeTeam":"Melbourne",
-        "awayTeam":"Brisbane",
-        "homeRating":92.0424257383,
-        "awayRating":103.8651769875,
-        "round":8,
-        "year":2020
-    },
-    {
-        "id":15685,
-        "homeTeam":"Fremantle",
-        "awayTeam":"Geelong",
-        "homeRating":75.2510680206,
-        "awayRating":102.7421346552,
-        "round":8,
-        "year":2020
-    },
-    {
-        "id":15686,
-        "homeTeam":"Western Bulldogs",
-        "awayTeam":"Richmond",
-        "homeRating":96.9702777614,
-        "awayRating":100.727570948,
-        "round":9,
-        "year":2020
-    },
-    {
-        "id":15687,
-        "homeTeam":"Melbourne",
-        "awayTeam":"Port Adelaide",
-        "homeRating":93.6069759882,
-        "awayRating":94.8271041075,
-        "round":9,
-        "year":2020
-    },
-    {
-        "id":15688,
-        "homeTeam":"Carlton",
-        "awayTeam":"Hawthorn",
-        "homeRating":94.6816851209,
-        "awayRating":77.6644591195,
-        "round":9,
-        "year":2020
-    },
-    {
-        "id":15689,
-        "homeTeam":"Essendon",
-        "awayTeam":"Brisbane",
-        "homeRating":80.61654971,
-        "awayRating":102.3006267377,
-        "round":9,
-        "year":2020
-    },
-    {
-        "id":15690,
-        "homeTeam":"North Melbourne",
-        "awayTeam":"Adelaide",
-        "homeRating":78.3756255334,
-        "awayRating":64.5959961178,
-        "round":9,
-        "year":2020
-    },
-    {
-        "id":15691,
-        "homeTeam":"St Kilda",
-        "awayTeam":"Sydney",
-        "homeRating":97.7377872463,
-        "awayRating":75.2624618792,
-        "round":9,
-        "year":2020
-    },
-    {
-        "id":15692,
-        "homeTeam":"West Coast",
-        "awayTeam":"Geelong",
-        "homeRating":104.1305055295,
-        "awayRating":103.6439213283,
-        "round":9,
-        "year":2020
-    },
-    {
-        "id":15693,
-        "homeTeam":"Gold Coast",
-        "awayTeam":"GWS Giants",
-        "homeRating":81.886039258,
-        "awayRating":99.175658197,
-        "round":9,
-        "year":2020
-    },
-    {
-        "id":15694,
-        "homeTeam":"Fremantle",
-        "awayTeam":"Collingwood",
-        "homeRating":74.3492813475,
-        "awayRating":99.4474740698,
-        "round":9,
-        "year":2020
-    },
-    {
-        "id":15695,
-        "homeTeam":"Port Adelaide",
-        "awayTeam":"Western Bulldogs",
-        "homeRating":104.7830784837,
-        "awayRating":89.5217363987,
-        "round":10,
-        "year":2020
-    },
-    {
-        "id":15696,
-        "homeTeam":"Richmond",
-        "awayTeam":"Brisbane",
-        "homeRating":108.1761123107,
-        "awayRating":110.5638113321,
-        "round":10,
-        "year":2020
-    },
-    {
-        "id":15697,
-        "homeTeam":"Geelong",
-        "awayTeam":"North Melbourne",
-        "homeRating":101.9412381685,
-        "awayRating":89.4196996503,
-        "round":10,
-        "year":2020
-    },
-    {
-        "id":15698,
-        "homeTeam":"Adelaide",
-        "awayTeam":"Melbourne",
-        "homeRating":53.5519220009,
-        "awayRating":83.651001612,
-        "round":10,
-        "year":2020
-    },
-    {
-        "id":15699,
-        "homeTeam":"Collingwood",
-        "awayTeam":"Sydney",
-        "homeRating":92.0278355253,
-        "awayRating":69.1575269526,
-        "round":10,
-        "year":2020
-    },
-    {
-        "id":15700,
-        "homeTeam":"Gold Coast",
-        "awayTeam":"St Kilda",
-        "homeRating":80.1439630458,
-        "awayRating":103.8427221729,
-        "round":10,
-        "year":2020
-    },
-    {
-        "id":15701,
-        "homeTeam":"Essendon",
-        "awayTeam":"GWS Giants",
-        "homeRating":72.3533651155,
-        "awayRating":100.9177344092,
-        "round":10,
-        "year":2020
-    },
-    {
-        "id":15702,
-        "homeTeam":"Port Adelaide",
-        "awayTeam":"Richmond",
-        "homeRating":104.3308100667,
-        "awayRating":116.853652115,
-        "round":11,
-        "year":2020
-    },
-    {
-        "id":15703,
-        "homeTeam":"Brisbane",
-        "awayTeam":"Western Bulldogs",
-        "homeRating":101.8862715279,
-        "awayRating":89.9740048157,
-        "round":11,
-        "year":2020
-    },
-    {
-        "id":15704,
-        "homeTeam":"West Coast",
-        "awayTeam":"Carlton",
-        "homeRating":105.8331886893,
-        "awayRating":85.0782399206,
-        "round":11,
-        "year":2020
-    },
-    {
-        "id":15705,
-        "homeTeam":"Melbourne",
-        "awayTeam":"North Melbourne",
-        "homeRating":87.8311856898,
-        "awayRating":85.3240073539,
-        "round":11,
-        "year":2020
-    },
-    {
-        "id":15706,
-        "homeTeam":"St Kilda",
-        "awayTeam":"Geelong",
-        "homeRating":99.9029703475,
-        "awayRating":106.0369304649,
-        "round":11,
-        "year":2020
-    },
-    {
-        "id":15707,
-        "homeTeam":"Fremantle",
-        "awayTeam":"Hawthorn",
-        "homeRating":81.768919892,
-        "awayRating":87.2679043198,
-        "round":11,
-        "year":2020
-    },
-    {
-        "id":15708,
-        "homeTeam":"Adelaide",
-        "awayTeam":"Collingwood",
-        "homeRating":49.3717379231,
-        "awayRating":89.2537738108,
-        "round":11,
-        "year":2020
-    },
-    {
-        "id":15709,
-        "homeTeam":"Gold Coast",
-        "awayTeam":"Essendon",
-        "homeRating":84.0837148712,
-        "awayRating":77.2662389743,
-        "round":11,
-        "year":2020
-    },
-    {
-        "id":15710,
-        "homeTeam":"Sydney",
-        "awayTeam":"GWS Giants",
-        "homeRating":71.9315886671,
-        "awayRating":96.0048605505,
-        "round":12,
-        "year":2020
-    },
-    {
-        "id":15711,
-        "homeTeam":"Geelong",
-        "awayTeam":"Port Adelaide",
-        "homeRating":116.6101384414,
-        "awayRating":111.0353784763,
-        "round":12,
-        "year":2020
-    },
-    {
-        "id":15712,
-        "homeTeam":"North Melbourne",
-        "awayTeam":"Brisbane",
-        "homeRating":74.4254430211,
-        "awayRating":104.3038181854,
-        "round":12,
-        "year":2020
-    },
-    {
-        "id":15713,
-        "homeTeam":"Melbourne",
-        "awayTeam":"Collingwood",
-        "homeRating":98.7297500226,
-        "awayRating":86.0773666333,
-        "round":12,
-        "year":2020
-    },
-    {
-        "id":15714,
-        "homeTeam":"Fremantle",
-        "awayTeam":"Carlton",
-        "homeRating":86.0687167775,
-        "awayRating":84.8292296743,
-        "round":12,
-        "year":2020
-    },
-    {
-        "id":15715,
-        "homeTeam":"Western Bulldogs",
-        "awayTeam":"Adelaide",
-        "homeRating":87.5564581582,
-        "awayRating":52.5481451007,
-        "round":12,
-        "year":2020
-    },
-    {
-        "id":15716,
-        "homeTeam":"St Kilda",
-        "awayTeam":"Essendon",
-        "homeRating":89.329762371,
-        "awayRating":78.6297341536,
-        "round":12,
-        "year":2020
-    },
-    {
-        "id":15717,
-        "homeTeam":"West Coast",
-        "awayTeam":"Hawthorn",
-        "homeRating":106.0821989355,
-        "awayRating":82.9681074342,
-        "round":12,
-        "year":2020
-    },
-    {
-        "id":15718,
-        "homeTeam":"Richmond",
-        "awayTeam":"Gold Coast",
-        "homeRating":110.1490837053,
-        "awayRating":82.7202196918,
-        "round":12,
-        "year":2020
-    }
-]
+{
+    "rounds": [
+        {
+            "round": 1,
+            "year": 2020,
+            "ratings": [
+                {
+                    "team": "Richmond",
+                    "rating": 123.99942397366638
+                },
+                {
+                    "team": "Carlton",
+                    "rating": 79.3724089795123
+                },
+                {
+                    "team": "Western Bulldogs",
+                    "rating": 98.55343784256132
+                },
+                {
+                    "team": "Collingwood",
+                    "rating": 99.30552562829928
+                },
+                {
+                    "team": "Essendon",
+                    "rating": 80.73055211145515
+                },
+                {
+                    "team": "Fremantle",
+                    "rating": 73.35308678346827
+                },
+                {
+                    "team": "Adelaide",
+                    "rating": 84.37904805742758
+                },
+                {
+                    "team": "Sydney",
+                    "rating": 95.41494949183
+                },
+                {
+                    "team": "GWS Giants",
+                    "rating": 90.40802757736078
+                },
+                {
+                    "team": "Geelong",
+                    "rating": 104.83832513395373
+                },
+                {
+                    "team": "Gold Coast",
+                    "rating": 47.009978474663114
+                },
+                {
+                    "team": "Port Adelaide",
+                    "rating": 94.84464857337568
+                },
+                {
+                    "team": "North Melbourne",
+                    "rating": 91.05328044975592
+                },
+                {
+                    "team": "St Kilda",
+                    "rating": 77.50980760553412
+                },
+                {
+                    "team": "Hawthorn",
+                    "rating": 108.17736230771887
+                },
+                {
+                    "team": "Brisbane",
+                    "rating": 94.46403551323758
+                },
+                {
+                    "team": "West Coast",
+                    "rating": 100.22852856346931
+                },
+                {
+                    "team": "Melbourne",
+                    "rating": 76.35757293271061
+                }
+            ]
+        },
+        {
+            "round": 2,
+            "year": 2020,
+            "ratings": [
+                {
+                    "team": "Collingwood",
+                    "rating": 109.5551080711517
+                },
+                {
+                    "team": "Richmond",
+                    "rating": 119.87402097483557
+                },
+                {
+                    "team": "Geelong",
+                    "rating": 95.55226562263516
+                },
+                {
+                    "team": "Hawthorn",
+                    "rating": 111.0346969488226
+                },
+                {
+                    "team": "Brisbane",
+                    "rating": 91.60670087213379
+                },
+                {
+                    "team": "Fremantle",
+                    "rating": 73.62857984906564
+                },
+                {
+                    "team": "Carlton",
+                    "rating": 83.49781197834311
+                },
+                {
+                    "team": "Melbourne",
+                    "rating": 75.73176405886234
+                },
+                {
+                    "team": "Port Adelaide",
+                    "rating": 94.67771455363315
+                },
+                {
+                    "team": "Adelaide",
+                    "rating": 85.98622834430807
+                },
+                {
+                    "team": "Gold Coast",
+                    "rating": 47.176912494405634
+                },
+                {
+                    "team": "West Coast",
+                    "rating": 100.85433743731758
+                },
+                {
+                    "team": "GWS Giants",
+                    "rating": 99.69408708867935
+                },
+                {
+                    "team": "North Melbourne",
+                    "rating": 88.74458588091156
+                },
+                {
+                    "team": "Sydney",
+                    "rating": 93.80776920494951
+                },
+                {
+                    "team": "Essendon",
+                    "rating": 80.45505904585778
+                },
+                {
+                    "team": "St Kilda",
+                    "rating": 79.81850217437848
+                },
+                {
+                    "team": "Western Bulldogs",
+                    "rating": 88.3038553997089
+                }
+            ]
+        },
+        {
+            "round": 3,
+            "year": 2020,
+            "ratings": [
+                {
+                    "team": "Richmond",
+                    "rating": 117.8102383940988
+                },
+                {
+                    "team": "Hawthorn",
+                    "rating": 99.0346969488226
+                },
+                {
+                    "team": "Western Bulldogs",
+                    "rating": 78.8067847546428
+                },
+                {
+                    "team": "GWS Giants",
+                    "rating": 93.5041868471258
+                },
+                {
+                    "team": "North Melbourne",
+                    "rating": 94.93448612246513
+                },
+                {
+                    "team": "Sydney",
+                    "rating": 89.93722717313118
+                },
+                {
+                    "team": "Collingwood",
+                    "rating": 111.61889065188845
+                },
+                {
+                    "team": "St Kilda",
+                    "rating": 89.31557281944455
+                },
+                {
+                    "team": "Geelong",
+                    "rating": 107.55226562263516
+                },
+                {
+                    "team": "Carlton",
+                    "rating": 81.74460239444696
+                },
+                {
+                    "team": "Brisbane",
+                    "rating": 90.41107666752018
+                },
+                {
+                    "team": "West Coast",
+                    "rating": 88.85433743731758
+                },
+                {
+                    "team": "Gold Coast",
+                    "rating": 59.176912494405634
+                },
+                {
+                    "team": "Adelaide",
+                    "rating": 73.98622834430806
+                },
+                {
+                    "team": "Fremantle",
+                    "rating": 74.82420405367928
+                },
+                {
+                    "team": "Port Adelaide",
+                    "rating": 106.67771455363315
+                }
+            ]
+        },
+        {
+            "round": 4,
+            "year": 2020,
+            "ratings": [
+                {
+                    "team": "Sydney",
+                    "rating": 93.13667896299795
+                },
+                {
+                    "team": "Western Bulldogs",
+                    "rating": 86.54626517313942
+                },
+                {
+                    "team": "GWS Giants",
+                    "rating": 85.76470642862921
+                },
+                {
+                    "team": "Collingwood",
+                    "rating": 115.95822708539968
+                },
+                {
+                    "team": "Port Adelaide",
+                    "rating": 106.10701245364237
+                },
+                {
+                    "team": "West Coast",
+                    "rating": 83.1656852833581
+                },
+                {
+                    "team": "St Kilda",
+                    "rating": 84.97623638593335
+                },
+                {
+                    "team": "Richmond",
+                    "rating": 107.65513010504357
+                },
+                {
+                    "team": "Essendon",
+                    "rating": 84.32560107767613
+                },
+                {
+                    "team": "Carlton",
+                    "rating": 87.30613504008458
+                },
+                {
+                    "team": "Gold Coast",
+                    "rating": 71.17691249440563
+                },
+                {
+                    "team": "Fremantle",
+                    "rating": 75.39490615367006
+                },
+                {
+                    "team": "Brisbane",
+                    "rating": 96.09972882147966
+                },
+                {
+                    "team": "Adelaide",
+                    "rating": 61.98622834430808
+                },
+                {
+                    "team": "Melbourne",
+                    "rating": 77.4849736427585
+                },
+                {
+                    "team": "Geelong",
+                    "rating": 101.9907329769975
+                },
+                {
+                    "team": "Hawthorn",
+                    "rating": 109.18980523787785
+                },
+                {
+                    "team": "North Melbourne",
+                    "rating": 91.7350343325983
+                }
+            ]
+        },
+        {
+            "round": 5,
+            "year": 2020,
+            "ratings": [
+                {
+                    "team": "Carlton",
+                    "rating": 86.9100282476029
+                },
+                {
+                    "team": "St Kilda",
+                    "rating": 94.7120151297554
+                },
+                {
+                    "team": "Collingwood",
+                    "rating": 109.51952295404558
+                },
+                {
+                    "team": "Essendon",
+                    "rating": 84.72170787015781
+                },
+                {
+                    "team": "West Coast",
+                    "rating": 78.15395071741496
+                },
+                {
+                    "team": "Sydney",
+                    "rating": 86.21859620502626
+                },
+                {
+                    "team": "Geelong",
+                    "rating": 97.6895811101497
+                },
+                {
+                    "team": "Gold Coast",
+                    "rating": 74.62051122625851
+                },
+                {
+                    "team": "Western Bulldogs",
+                    "rating": 93.46434793111112
+                },
+                {
+                    "team": "North Melbourne",
+                    "rating": 94.42598851365423
+                },
+                {
+                    "team": "Brisbane",
+                    "rating": 96.67702872604534
+                },
+                {
+                    "team": "Port Adelaide",
+                    "rating": 111.11874701958551
+                },
+                {
+                    "team": "Adelaide",
+                    "rating": 61.4089284397424
+                },
+                {
+                    "team": "Fremantle",
+                    "rating": 71.95130742181719
+                },
+                {
+                    "team": "Melbourne",
+                    "rating": 81.78612550960631
+                },
+                {
+                    "team": "Richmond",
+                    "rating": 97.91935136122153
+                },
+                {
+                    "team": "GWS Giants",
+                    "rating": 92.20341055998331
+                },
+                {
+                    "team": "Hawthorn",
+                    "rating": 106.49885105682196
+                }
+            ]
+        },
+        {
+            "round": 6,
+            "year": 2020,
+            "ratings": [
+                {
+                    "team": "Geelong",
+                    "rating": 100.47576713337145
+                },
+                {
+                    "team": "Brisbane",
+                    "rating": 106.96537238475338
+                },
+                {
+                    "team": "Collingwood",
+                    "rating": 101.55995993726805
+                },
+                {
+                    "team": "Hawthorn",
+                    "rating": 96.8397629574542
+                },
+                {
+                    "team": "Fremantle",
+                    "rating": 73.84283162540223
+                },
+                {
+                    "team": "St Kilda",
+                    "rating": 96.75161775332491
+                },
+                {
+                    "team": "West Coast",
+                    "rating": 86.56687981493721
+                },
+                {
+                    "team": "Adelaide",
+                    "rating": 59.517404236157354
+                },
+                {
+                    "team": "Melbourne",
+                    "rating": 79.61277067992934
+                },
+                {
+                    "team": "Gold Coast",
+                    "rating": 71.83432520303677
+                },
+                {
+                    "team": "Essendon",
+                    "rating": 92.68127088693537
+                },
+                {
+                    "team": "North Melbourne",
+                    "rating": 84.43366039714563
+                },
+                {
+                    "team": "Port Adelaide",
+                    "rating": 100.83040336087747
+                },
+                {
+                    "team": "GWS Giants",
+                    "rating": 101.86249865935105
+                },
+                {
+                    "team": "Richmond",
+                    "rating": 100.09270619089848
+                },
+                {
+                    "team": "Sydney",
+                    "rating": 77.805667107504
+                },
+                {
+                    "team": "Carlton",
+                    "rating": 84.8704256240334
+                },
+                {
+                    "team": "Western Bulldogs",
+                    "rating": 103.45667604761974
+                }
+            ]
+        },
+        {
+            "round": 7,
+            "year": 2020,
+            "ratings": [
+                {
+                    "team": "Geelong",
+                    "rating": 107.17368818364784
+                },
+                {
+                    "team": "Collingwood",
+                    "rating": 107.01592054130528
+                },
+                {
+                    "team": "Essendon",
+                    "rating": 93.83174878897741
+                },
+                {
+                    "team": "Western Bulldogs",
+                    "rating": 91.45667604761974
+                },
+                {
+                    "team": "GWS Giants",
+                    "rating": 98.25607959965632
+                },
+                {
+                    "team": "Brisbane",
+                    "rating": 100.267451334477
+                },
+                {
+                    "team": "Sydney",
+                    "rating": 80.66307492418291
+                },
+                {
+                    "team": "Gold Coast",
+                    "rating": 69.99001429841528
+                },
+                {
+                    "team": "Richmond",
+                    "rating": 97.23529837421957
+                },
+                {
+                    "team": "North Melbourne",
+                    "rating": 83.28318249510356
+                },
+                {
+                    "team": "Carlton",
+                    "rating": 96.87042562403342
+                },
+                {
+                    "team": "Port Adelaide",
+                    "rating": 104.4368224205722
+                },
+                {
+                    "team": "Hawthorn",
+                    "rating": 91.38380235341698
+                },
+                {
+                    "team": "Melbourne",
+                    "rating": 81.45708158455083
+                },
+                {
+                    "team": "Fremantle",
+                    "rating": 79.62458885098675
+                },
+                {
+                    "team": "West Coast",
+                    "rating": 87.75698469918125
+                },
+                {
+                    "team": "Adelaide",
+                    "rating": 58.327299351913325
+                },
+                {
+                    "team": "St Kilda",
+                    "rating": 90.96986052774037
+                }
+            ]
+        },
+        {
+            "round": 8,
+            "year": 2020,
+            "ratings": [
+                {
+                    "team": "Gold Coast",
+                    "rating": 78.52462642356879
+                },
+                {
+                    "team": "Western Bulldogs",
+                    "rating": 100.33169059589129
+                },
+                {
+                    "team": "GWS Giants",
+                    "rating": 94.65835394662048
+                },
+                {
+                    "team": "Richmond",
+                    "rating": 105.24487519839636
+                },
+                {
+                    "team": "North Melbourne",
+                    "rating": 75.27360567092676
+                },
+                {
+                    "team": "Carlton",
+                    "rating": 97.78370498334117
+                },
+                {
+                    "team": "Sydney",
+                    "rating": 72.12846279902936
+                },
+                {
+                    "team": "Hawthorn",
+                    "rating": 80.79845819964375
+                },
+                {
+                    "team": "Port Adelaide",
+                    "rating": 103.52354306126443
+                },
+                {
+                    "team": "St Kilda",
+                    "rating": 89.04134829257495
+                },
+                {
+                    "team": "Adelaide",
+                    "rating": 60.255811587078725
+                },
+                {
+                    "team": "Essendon",
+                    "rating": 84.95673424070587
+                },
+                {
+                    "team": "West Coast",
+                    "rating": 92.13050552954235
+                },
+                {
+                    "team": "Collingwood",
+                    "rating": 111.44747406977379
+                },
+                {
+                    "team": "Melbourne",
+                    "rating": 92.04242573832407
+                },
+                {
+                    "team": "Brisbane",
+                    "rating": 103.86517698751287
+                },
+                {
+                    "team": "Fremantle",
+                    "rating": 75.25106802062565
+                },
+                {
+                    "team": "Geelong",
+                    "rating": 102.74213465517931
+                }
+            ]
+        },
+        {
+            "round": 9,
+            "year": 2020,
+            "ratings": [
+                {
+                    "team": "Western Bulldogs",
+                    "rating": 96.97027776142679
+                },
+                {
+                    "team": "Richmond",
+                    "rating": 100.7275709480412
+                },
+                {
+                    "team": "Melbourne",
+                    "rating": 93.60697598816185
+                },
+                {
+                    "team": "Port Adelaide",
+                    "rating": 94.82710410752655
+                },
+                {
+                    "team": "Carlton",
+                    "rating": 94.68168512085829
+                },
+                {
+                    "team": "Hawthorn",
+                    "rating": 77.66445911952087
+                },
+                {
+                    "team": "Essendon",
+                    "rating": 80.61654970998045
+                },
+                {
+                    "team": "Brisbane",
+                    "rating": 102.30062673767509
+                },
+                {
+                    "team": "North Melbourne",
+                    "rating": 78.37562553340962
+                },
+                {
+                    "team": "Adelaide",
+                    "rating": 64.59599611780416
+                },
+                {
+                    "team": "St Kilda",
+                    "rating": 97.73778724631285
+                },
+                {
+                    "team": "Sydney",
+                    "rating": 75.26246187915223
+                },
+                {
+                    "team": "West Coast",
+                    "rating": 104.13050552954235
+                },
+                {
+                    "team": "Geelong",
+                    "rating": 103.64392132826859
+                },
+                {
+                    "team": "Gold Coast",
+                    "rating": 81.88603925803329
+                },
+                {
+                    "team": "GWS Giants",
+                    "rating": 99.17565819697563
+                },
+                {
+                    "team": "Fremantle",
+                    "rating": 74.34928134753639
+                },
+                {
+                    "team": "Collingwood",
+                    "rating": 99.44747406977379
+                }
+            ]
+        },
+        {
+            "round": 10,
+            "year": 2020,
+            "ratings": [
+                {
+                    "team": "Port Adelaide",
+                    "rating": 104.7830784836536
+                },
+                {
+                    "team": "Western Bulldogs",
+                    "rating": 89.52173639874968
+                },
+                {
+                    "team": "Richmond",
+                    "rating": 108.17611231071831
+                },
+                {
+                    "team": "Brisbane",
+                    "rating": 110.56381133213615
+                },
+                {
+                    "team": "Geelong",
+                    "rating": 101.94123816852336
+                },
+                {
+                    "team": "North Melbourne",
+                    "rating": 89.41969965028855
+                },
+                {
+                    "team": "Adelaide",
+                    "rating": 53.55192200092525
+                },
+                {
+                    "team": "Melbourne",
+                    "rating": 83.65100161203478
+                },
+                {
+                    "team": "Collingwood",
+                    "rating": 92.0278355253263
+                },
+                {
+                    "team": "Sydney",
+                    "rating": 69.15752695258436
+                },
+                {
+                    "team": "Gold Coast",
+                    "rating": 80.14396304582176
+                },
+                {
+                    "team": "St Kilda",
+                    "rating": 103.84272217288073
+                },
+                {
+                    "team": "Essendon",
+                    "rating": 72.35336511551941
+                },
+                {
+                    "team": "GWS Giants",
+                    "rating": 100.91773440918719
+                }
+            ]
+        },
+        {
+            "round": 11,
+            "year": 2020,
+            "ratings": [
+                {
+                    "team": "Port Adelaide",
+                    "rating": 104.3308100666728
+                },
+                {
+                    "team": "Richmond",
+                    "rating": 116.85365211500186
+                },
+                {
+                    "team": "Brisbane",
+                    "rating": 101.88627152785259
+                },
+                {
+                    "team": "Western Bulldogs",
+                    "rating": 89.97400481573045
+                },
+                {
+                    "team": "West Coast",
+                    "rating": 105.83318868928758
+                },
+                {
+                    "team": "Carlton",
+                    "rating": 85.0782399205908
+                },
+                {
+                    "team": "Melbourne",
+                    "rating": 87.83118568981287
+                },
+                {
+                    "team": "North Melbourne",
+                    "rating": 85.3240073539355
+                },
+                {
+                    "team": "St Kilda",
+                    "rating": 99.90297034746892
+                },
+                {
+                    "team": "Geelong",
+                    "rating": 106.03693046487636
+                },
+                {
+                    "team": "Fremantle",
+                    "rating": 81.76891989198387
+                },
+                {
+                    "team": "Hawthorn",
+                    "rating": 87.26790431978836
+                },
+                {
+                    "team": "Adelaide",
+                    "rating": 49.37173792314717
+                },
+                {
+                    "team": "Collingwood",
+                    "rating": 89.25377381077791
+                },
+                {
+                    "team": "Gold Coast",
+                    "rating": 84.08371487123355
+                },
+                {
+                    "team": "Essendon",
+                    "rating": 77.26623897425294
+                }
+            ]
+        },
+        {
+            "round": 12,
+            "year": 2020,
+            "ratings": [
+                {
+                    "team": "Sydney",
+                    "rating": 71.93158866713273
+                },
+                {
+                    "team": "GWS Giants",
+                    "rating": 96.00486055045359
+                },
+                {
+                    "team": "Geelong",
+                    "rating": 116.6101384413949
+                },
+                {
+                    "team": "Port Adelaide",
+                    "rating": 111.03537847633864
+                },
+                {
+                    "team": "North Melbourne",
+                    "rating": 74.42544302111095
+                },
+                {
+                    "team": "Brisbane",
+                    "rating": 104.30381818542816
+                },
+                {
+                    "team": "Melbourne",
+                    "rating": 98.7297500226374
+                },
+                {
+                    "team": "Collingwood",
+                    "rating": 86.07736663325176
+                },
+                {
+                    "team": "Fremantle",
+                    "rating": 86.06871677754476
+                },
+                {
+                    "team": "Carlton",
+                    "rating": 84.82922967433016
+                },
+                {
+                    "team": "Western Bulldogs",
+                    "rating": 87.55645815815487
+                },
+                {
+                    "team": "Adelaide",
+                    "rating": 52.548145100673324
+                },
+                {
+                    "team": "St Kilda",
+                    "rating": 89.32976237095042
+                },
+                {
+                    "team": "Essendon",
+                    "rating": 78.62973415364908
+                },
+                {
+                    "team": "West Coast",
+                    "rating": 106.08219893554823
+                },
+                {
+                    "team": "Hawthorn",
+                    "rating": 82.96810743422746
+                },
+                {
+                    "team": "Richmond",
+                    "rating": 110.14908370533607
+                },
+                {
+                    "team": "Gold Coast",
+                    "rating": 82.72021969183743
+                }
+            ]
+        }
+    ]
+}
