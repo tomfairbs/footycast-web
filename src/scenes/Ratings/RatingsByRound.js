@@ -14,15 +14,9 @@ import {
     getMaxRating,
     sortByRating,
     NOTIONAL_AVG_RATING,
-} from '../core';
-import { TeamSvg } from '../components';
-import { ratingsByRound } from '../sample-data';
-import ChartTitle from '../components/ChartTitle';
-import ChartDescription from '../components/ChartDescription';
-
-const Wrapper = styled.div`
-    max-width: 1200px;
-`;
+} from '../../core';
+import { ChartDescription, ChartTitle, TeamSvg } from '../../components';
+import { ratingsByRound } from '../../sample-data';
 
 const Filters = styled.div`
     margin-bottom: 32px;
@@ -37,20 +31,18 @@ const roundOptions = rounds.reverse().map(
     }),
 );
 
-const Ratings = () => {
+export default function RatingsByRound() {
     const [selectedRound, setSelectedRound] = useState(roundOptions[0]);
 
-    const { ratings: currentRatings } = rounds.find(
+    const sortedRatings = rounds.find(
         ({ round }) => round === selectedRound.value,
-    );
-
-    const sortedRatings = currentRatings.sort(sortByRating);
+    ).ratings.sort(sortByRating);
 
     return (
-        <Wrapper>
+        <>
             <ChartTitle>Ratings by round</ChartTitle>
             <ChartDescription>
-                The average rating is 90. More than 90 is good. Less than 90 is bad!
+                Ratings shown are calculated prior to the start of the selected round.
             </ChartDescription>
             <Filters>
                 <ReactSelect
@@ -64,7 +56,7 @@ const Ratings = () => {
                 theme={VictoryTheme.material}
                 height={160}
                 width={240}
-                padding={{ top: 4, right: 32, bottom: 32, left: 16 }}
+                padding={{ top: 4, right: 32, bottom: 16, left: 16 }}
                 domain={{
                     y: [
                         getMinRating(sortedRatings) - 10,
@@ -80,7 +72,7 @@ const Ratings = () => {
                 />
                 <VictoryLine
                     y={() => NOTIONAL_AVG_RATING}
-                    style={{ data: { strokeWidth: 0.2 } }}
+                    style={{ data: { strokeWidth: 0.5 } }}
                 />
                 <VictoryScatter
                     data={sortedRatings.map(
@@ -90,8 +82,6 @@ const Ratings = () => {
                     tickCount={19}
                 />
             </VictoryChart>
-        </Wrapper>
+        </>
     );
-};
-
-export default Ratings;
+}
