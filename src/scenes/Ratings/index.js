@@ -1,3 +1,3 @@
 import Ratings from './Ratings';
 
-export default Ratings
+export default Ratings;

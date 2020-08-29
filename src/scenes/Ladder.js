@@ -1,5 +1,5 @@
 import React from 'react';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import {
     VictoryGroup,
     VictoryTheme,
@@ -16,7 +16,7 @@ import ChartDescription from '../components/ChartDescription';
 
 const gridTemplateColumns = `
     minmax(96px, 96px)
-    minmax(128px, 256px)
+    minmax(256px, 256px)
     minmax(128px, 2fr)
     minmax(128px, 2fr)
     minmax(128px, 2fr)
@@ -106,14 +106,30 @@ const Ladder = () => {
                         </Cell>
                         <Cell>
                             <VictoryGroup
-                                height={80}
-                                padding={{ top: 16, right: 32 }}
+                                height={88}
+                                padding={{ top: 32, right: 32 }}
                                 containerComponent={<VictoryVoronoiContainer />}
                                 domain={{ x: [1, 18], y: [0, getYUpperBound(positions)] }}
                                 theme={VictoryTheme.material}
                             >
                                 <VictoryBar
-                                    labelComponent={<VictoryTooltip constrainToVisibleArea />}
+                                    labelComponent={(
+                                        <VictoryTooltip
+                                            constrainToVisibleArea
+                                            pointerLength={0}
+                                            pointerWidth={0}
+                                            center={{ x: 280, y: 32 }}
+                                            flyoutStyle={{
+                                                strokeWidth: 0,
+                                                background: 'transparent',
+                                            }}
+                                            style={{
+                                                fontSize: 21,
+                                                fontWeight: '600',
+                                                fontFamily: '\'Source Sans Pro\', sans-serif',
+                                            }}
+                                        />
+                                    )}
                                     labels={positions.map(
                                         ({ position, chance }) => `${addOrdinalSuffix(position)} - ${chance}%`
                                     )}
@@ -144,7 +160,7 @@ const Ladder = () => {
                             {Math.round(wins)}
                         </Cell>
                         <Cell>
-                            {Math.round(perc * 10 * 100) / 10}%
+                            {Math.round(perc * 10 * 100) / 10}
                         </Cell>
                     </LadderRow>
                 )
