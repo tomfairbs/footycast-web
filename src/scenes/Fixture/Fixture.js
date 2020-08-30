@@ -33,7 +33,7 @@ const Fixture = () => {
         <>
             <ChartTitle>Fixture</ChartTitle>
             <ChartDescription>
-                Head to head probabilities. Each matchup assumes a ~2% chance of a draw.
+                Head to head win probabilities. The chance of a draw (generally around 2%) is factored in but not displayed.
             </ChartDescription>
             <Filters>
                 <ReactSelect
