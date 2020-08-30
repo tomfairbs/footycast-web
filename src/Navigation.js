@@ -2,9 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-const Wrapper = styled.nav`
-    margin-bottom: 32px;
-`;
+const Wrapper = styled.nav``;
 
 const NavItems = styled.ul`
     list-style: none;
@@ -38,10 +36,7 @@ const Navigation = () => (
     <Wrapper>
         <NavItems>
             <NavItem>
-                <NavLink to="/">Home</NavLink>
-            </NavItem>
-            <NavItem>
-                <NavLink to="/ratings">Ratings</NavLink>
+                <NavLink to="/">Ratings</NavLink>
             </NavItem>
             <NavItem>
                 <NavLink to="/ladder">Ladder</NavLink>

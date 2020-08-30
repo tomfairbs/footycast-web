@@ -51,7 +51,7 @@ const Cell = styled.div`
     display: flex;
     align-items: center;
     height: 80px;
-    font-size: 18px;
+    font-size: 20px;
     padding-right: 16px;
 `;
 

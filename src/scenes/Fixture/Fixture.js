@@ -3,8 +3,9 @@ import styled from 'styled-components';
 import ReactSelect from 'react-select';
 
 import { predictionFixture } from '../../sample-data';
-import Match from './Match';
 import { groupMatchesByDate } from '../../core';
+import { ChartTitle, ChartDescription } from '../../components';
+import Match from './Match';
 
 const Filters = styled.div`
     margin-bottom: 32px;
@@ -12,6 +13,7 @@ const Filters = styled.div`
 
 const MatchDate = styled.h2`
     margin-bottom: 40px;
+    font-size: 20px;
 `;
 
 const Fixture = () => {
@@ -29,6 +31,10 @@ const Fixture = () => {
 
     return (
         <>
+            <ChartTitle>Fixture</ChartTitle>
+            <ChartDescription>
+                Head to head probabilities. Each matchup assumes a ~2% chance of a draw.
+            </ChartDescription>
             <Filters>
                 <ReactSelect
                     value={selectedRound}
@@ -46,11 +52,11 @@ const Fixture = () => {
                                 <Match
                                     key={match.id}
                                     date={match.date}
+                                    venue={match.venue}
                                     home={match.home}
                                     away={match.away}
                                     prHome={match.prHome}
                                     prAway={match.prAway}
-                                    prDraw={match.prDraw}
                                 />
                             )
                         )}
