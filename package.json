@@ -1,6 +1,7 @@
 {
     "name": "footycast-web",
     "version": "1.0.0",
+    "private": true,
     "description": "What if the Footycast had a cheeky lil website?",
     "main": "src/index.js",
     "repository": "https://github.com/tomfairbs/footycast-web",
