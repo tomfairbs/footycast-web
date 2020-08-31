@@ -27,6 +27,7 @@ const TeamOptions = styled.div`
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    max-width: 700px;
     padding: 16px 24px;
     border: 1px solid #dddddd;
     border-radius: 8px;

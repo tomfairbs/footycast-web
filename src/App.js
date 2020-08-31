@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import './App.css';
 
 import Layout from './Layout';
@@ -7,11 +7,11 @@ import Router from './Router';
 
 const App = () => (
     <div className="app">
-        <BrowserRouter>
+        <HashRouter basename="/">
             <Layout>
                 <Router />
             </Layout>
-        </BrowserRouter>
+        </HashRouter>
     </div>
 );
 
