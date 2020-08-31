@@ -6,6 +6,7 @@ import {
     VictoryAxis,
     VictoryTheme,
     VictoryVoronoiContainer,
+    VictoryLabel,
 } from 'victory';
 
 import {
@@ -19,13 +20,18 @@ import { ChartDescription, ChartTitle, TeamLogo } from '../../components';
 import { ratingsByTeam } from '../../sample-data';
 
 const Filters = styled.div`
-    margin-bottom: 32px;
+    margin-bottom: 64px;
 `;
 
 const TeamOptions = styled.div`
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    padding: 16px 24px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: 0 0 32px rgba(208, 208, 208, 0.25);
+    background-color: #fcfcfc;
     > :not(:last-child) {
         margin-right: 8px;
     }
@@ -79,7 +85,7 @@ export default function RatingsByTeam() {
                 theme={VictoryTheme.material}
                 height={160}
                 width={240}
-                padding={{ top: 4, right: 32, bottom: 16, left: 16 }}
+                padding={{ top: 4, right: 32, bottom: 32, left: 20 }}
                 containerComponent={<VictoryVoronoiContainer />}
                 domain={{
                     y: [minRating - 10, maxRating + 10],
@@ -89,12 +95,29 @@ export default function RatingsByTeam() {
                 <VictoryAxis
                     crossAxis
                     tickCount={roundCount}
-                    style={{ tickLabels: { fontSize: 5 }, ticks: { size: 0 } }}
+                    label="Round"
+                    style={{
+                        axisLabel: { fill: '#666666', fontSize: 4, fontWeight: 600, padding: 20 },
+                        tickLabels: { fontSize: 5 },
+                        ticks: { size: 0 }
+                    }}
                 />
                 <VictoryAxis
                     dependentAxis
                     tickCount={8}
-                    style={{ tickLabels: { fontSize: 5 }, ticks: { size: 0 } }}
+                    label="Rating"
+                    axisLabelComponent={(
+                        <VictoryLabel
+                            renderInPortal
+                            x={6}
+                            y={0}
+                        />
+                    )}
+                    style={{
+                        axisLabel: { fill: '#666666', fontSize: 4, fontWeight: 600, angle: 0 },
+                        tickLabels: { fontSize: 5 },
+                        ticks: { size: 0 }
+                    }}
                 />
                 <VictoryLine
                     y={() => NOTIONAL_AVG_RATING}

@@ -7,6 +7,7 @@ import {
     VictoryLine,
     VictoryAxis,
     VictoryTheme,
+    VictoryLabel,
 } from 'victory';
 
 import {
@@ -19,7 +20,7 @@ import { ChartDescription, ChartTitle, TeamSvg } from '../../components';
 import { ratingsByRound } from '../../sample-data';
 
 const Filters = styled.div`
-    margin-bottom: 32px;
+    margin-bottom: 64px;
 `;
 
 const { rounds } = ratingsByRound;
@@ -56,7 +57,7 @@ export default function RatingsByRound() {
                 theme={VictoryTheme.material}
                 height={160}
                 width={240}
-                padding={{ top: 4, right: 32, bottom: 16, left: 16 }}
+                padding={{ top: 4, right: 32, bottom: 16, left: 20 }}
                 domain={{
                     y: [
                         getMinRating(sortedRatings) - 10,
@@ -67,8 +68,20 @@ export default function RatingsByRound() {
             >
                 <VictoryAxis
                     dependentAxis
-                    tickCount={8}
-                    style={{ tickLabels: { fontSize: 5 }, ticks: { size: 0 } }}
+                    tickCount={10}
+                    label="Rating"
+                    axisLabelComponent={(
+                        <VictoryLabel
+                            renderInPortal
+                            x={6}
+                            y={0}
+                        />
+                    )}
+                    style={{
+                        axisLabel: { fill: '#666666', fontSize: 4, fontWeight: 600, angle: 0 },
+                        tickLabels: { fontSize: 5 },
+                        ticks: { size: 0 }
+                    }}
                 />
                 <VictoryLine
                     y={() => NOTIONAL_AVG_RATING}

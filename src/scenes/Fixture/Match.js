@@ -8,7 +8,7 @@ import { TeamLogo } from '../../components';
 const Wrapper = styled.div`
     display: flex;
     align-items: flex-end;
-    max-width: 680px;
+    max-width: 648px;
     margin-bottom: 32px;
     padding: 32px;
     border: 1px solid #dddddd;
@@ -34,15 +34,15 @@ const TeamChance = styled.div`
 
 const Details = styled.div`
     margin-left: 64px;
-    color: #666666;
+    color: #333333;
 `;
 
 const Time = styled.div`
-    font-size: 21px;
+    font-size: 20px;
 `;
 
 const Venue = styled.div`
-    font-size: 16px;
+    font-size: 14px;
 `;
 
 const Match = ({
@@ -72,7 +72,6 @@ const Match = ({
                     origin={{ x: 96, y: 96, }}
                     colorScale={[
                         prHome > prAway ? '#666666' : '#bbbbbb',
-                        // '#cccccc',
                         prAway > prHome ? '#666666' : '#bbbbbb'
                     ]}
                     style={{ labels: { fontSize: 14 } }}
@@ -80,14 +79,8 @@ const Match = ({
                     startAngle={-90}
                     endAngle={90}
                     labels={() => null}
-                    // labels={({ datum, index: i }) => (
-                    //     i === 1
-                    //         ? `${Math.round(datum.y * 100)}% (draw)`
-                    //         : null
-                    // )}
                     data={[
                         { y: prHome },
-                        // { y: prDraw },
                         { y: prAway },
                     ]}
                 />

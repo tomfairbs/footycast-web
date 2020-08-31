@@ -45,6 +45,7 @@ const LadderRow = styled.div`
 const HeaderCell = styled.div`
     font-weight: 600;
     font-size: 14px;
+    padding-left: ${p => p.padLeft ? '16px' : '0'};
 `;
 
 const Cell = styled.div`
@@ -82,7 +83,7 @@ const Ladder = () => {
                 Positional probabilities, top 8/4 chances, and likely win count.
             </ChartDescription>
             <LadderHeader>
-                <HeaderCell>Team</HeaderCell>
+                <HeaderCell padLeft>Team</HeaderCell>
                 <HeaderCell>Likely position</HeaderCell>
                 <HeaderCell>Top 8 chance</HeaderCell>
                 <HeaderCell>Top 4 chance</HeaderCell>
@@ -141,23 +142,23 @@ const Ladder = () => {
                             </VictoryGroup>
                         </Cell>
                         <Cell>
-                            {topEight}%
+                            {Math.round(topEight)}%
                             <PercChange up={topEight > topEightPre}>
                                 {topEight - topEightPre === 0
-                                    ? '-'
-                                    : `(${topEight - topEightPre < 0 ? '-' : '+'}${Math.abs(topEight - topEightPre)}%)`}
+                                    ? '(-)'
+                                    : `(${topEight - topEightPre < 0 ? '-' : '+'}${Math.abs(Math.round(topEight - topEightPre))}%)`}
                             </PercChange>
                         </Cell>
                         <Cell>
-                            {topFour}%
+                            {Math.round(topFour)}%
                             <PercChange up={topFour > topFourPre}>
                                 {topFour - topFourPre === 0
-                                    ? '-'
-                                    : `(${topFour - topFourPre < 0 ? '-' : '+'}${Math.abs(topFour - topFourPre)}%)`}
+                                    ? '(-)'
+                                    : `(${topFour - topFourPre < 0 ? '-' : '+'}${Math.abs(Math.round(topFour - topFourPre))}%)`}
                             </PercChange>
                         </Cell>
                         <Cell>
-                            {Math.round(wins)}
+                            {Math.round(wins * 10) / 10}
                         </Cell>
                         <Cell>
                             {Math.round(perc * 10 * 100) / 10}
