@@ -43,7 +43,7 @@ export default function RatingsByRound() {
         <>
             <ChartTitle>Ratings by round</ChartTitle>
             <ChartDescription>
-                Ratings shown are calculated prior to the start of the selected round.
+                Ratings are calculated prior to the start of the selected round.
             </ChartDescription>
             <Filters>
                 <ReactSelect
