@@ -27,7 +27,7 @@
         "rimraf": "^3.0.2"
     },
     "scripts": {
-        "prebuild": "rimraf dist",
+        "prebuild": "rimraf dist/*",
         "build": "parcel build src/index.html --no-cache --no-source-maps --out-dir ./dist",
         "start": "parcel src/index.html --no-cache",
         "lint": "eslint ."
