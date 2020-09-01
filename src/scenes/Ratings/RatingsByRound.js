@@ -50,7 +50,13 @@ export default function RatingsByRound() {
                     value={selectedRound}
                     options={roundOptions}
                     onChange={option => setSelectedRound(option)}
-                    styles={{ container: base => ({ ...base, width: 200 }) }}
+                    styles={{
+                        container: base => ({ ...base, width: 200 }),
+                        menu: base => ({
+                            ...base,
+                            zIndex: 100,
+                        })
+                    }}
                 />
             </Filters>
             <VictoryChart
