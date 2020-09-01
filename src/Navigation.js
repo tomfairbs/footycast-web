@@ -23,9 +23,7 @@ const NavItem = styled.li`
 
 const NavLink = styled(Link)`
     text-decoration: none;
-    :visited {
-        color: #0059c7;
-    }
+    color: #0059c7;
     :hover,
     :active {
         text-decoration: underline;
