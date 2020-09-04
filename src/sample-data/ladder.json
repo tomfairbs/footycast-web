@@ -1,1496 +1,1496 @@
 {
     "teams": [
         {
-            "team": "Adelaide",
-            "topEight": 0,
-            "topFour": 0,
-            "topEightPre": 0,
-            "topFourPre": 0,
-            "wins": 0.9675,
-            "perc": 0.5938330749123852,
+            "team": "Port Adelaide",
+            "topEight": 100.0,
+            "topFour": 96.9,
+            "topEightPre": 100.0,
+            "topFourPre": 97.5,
+            "wins": 12.9864,
+            "perc": 1.2652177368977466,
             "positions": [
                 {
                     "position": 1,
-                    "chance": 0
+                    "chance": 51.9
                 },
                 {
                     "position": 2,
-                    "chance": 0
+                    "chance": 22.9
                 },
                 {
                     "position": 3,
-                    "chance": 0
+                    "chance": 14.6
                 },
                 {
                     "position": 4,
-                    "chance": 0
+                    "chance": 7.5
                 },
                 {
                     "position": 5,
-                    "chance": 0
+                    "chance": 2.8
                 },
                 {
                     "position": 6,
-                    "chance": 0
+                    "chance": 0.3
                 },
                 {
                     "position": 7,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 8,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 9,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 10,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 11,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 12,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 13,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 14,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 15,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 16,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 17,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 18,
-                    "chance": 100
+                    "chance": 0.0
                 }
             ]
         },
         {
             "team": "Brisbane",
-            "topEight": 100,
-            "topFour": 85,
-            "topEightPre": 99,
-            "topFourPre": 88,
-            "wins": 12.4247,
-            "perc": 1.156172803319236,
+            "topEight": 100.0,
+            "topFour": 91.1,
+            "topEightPre": 99.8,
+            "topFourPre": 84.2,
+            "wins": 12.7732,
+            "perc": 1.1592439630228504,
             "positions": [
                 {
                     "position": 1,
-                    "chance": 17
+                    "chance": 23.1
                 },
                 {
                     "position": 2,
-                    "chance": 25
+                    "chance": 29.2
                 },
                 {
                     "position": 3,
-                    "chance": 26
+                    "chance": 22.3
                 },
                 {
                     "position": 4,
-                    "chance": 17
+                    "chance": 16.5
                 },
                 {
                     "position": 5,
-                    "chance": 10
+                    "chance": 7.3
                 },
                 {
                     "position": 6,
-                    "chance": 4
+                    "chance": 1.6
                 },
                 {
                     "position": 7,
-                    "chance": 1
+                    "chance": 0.0
                 },
                 {
                     "position": 8,
-                    "chance": 1
+                    "chance": 0.0
                 },
                 {
                     "position": 9,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 10,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 11,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 12,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 13,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 14,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 15,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 16,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 17,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 18,
-                    "chance": 0
-                }
-            ]
-        },
-        {
-            "team": "Carlton",
-            "topEight": 10,
-            "topFour": 0,
-            "topEightPre": 42,
-            "topFourPre": 1,
-            "wins": 8.1089,
-            "perc": 0.9902857503638351,
-            "positions": [
-                {
-                    "position": 1,
-                    "chance": 0
-                },
-                {
-                    "position": 2,
-                    "chance": 0
-                },
-                {
-                    "position": 3,
-                    "chance": 0
-                },
-                {
-                    "position": 4,
-                    "chance": 0
-                },
-                {
-                    "position": 5,
-                    "chance": 0
-                },
-                {
-                    "position": 6,
-                    "chance": 1
-                },
-                {
-                    "position": 7,
-                    "chance": 3
-                },
-                {
-                    "position": 8,
-                    "chance": 6
-                },
-                {
-                    "position": 9,
-                    "chance": 10
-                },
-                {
-                    "position": 10,
-                    "chance": 16
-                },
-                {
-                    "position": 11,
-                    "chance": 24
-                },
-                {
-                    "position": 12,
-                    "chance": 20
-                },
-                {
-                    "position": 13,
-                    "chance": 13
-                },
-                {
-                    "position": 14,
-                    "chance": 6
-                },
-                {
-                    "position": 15,
-                    "chance": 1
-                },
-                {
-                    "position": 16,
-                    "chance": 0
-                },
-                {
-                    "position": 17,
-                    "chance": 0
-                },
-                {
-                    "position": 18,
-                    "chance": 0
-                }
-            ]
-        },
-        {
-            "team": "Collingwood",
-            "topEight": 77,
-            "topFour": 5,
-            "topEightPre": 53,
-            "topFourPre": 3,
-            "wins": 9.85425,
-            "perc": 1.0748281712963492,
-            "positions": [
-                {
-                    "position": 1,
-                    "chance": 0
-                },
-                {
-                    "position": 2,
-                    "chance": 0
-                },
-                {
-                    "position": 3,
-                    "chance": 1
-                },
-                {
-                    "position": 4,
-                    "chance": 4
-                },
-                {
-                    "position": 5,
-                    "chance": 8
-                },
-                {
-                    "position": 6,
-                    "chance": 22
-                },
-                {
-                    "position": 7,
-                    "chance": 22
-                },
-                {
-                    "position": 8,
-                    "chance": 20
-                },
-                {
-                    "position": 9,
-                    "chance": 11
-                },
-                {
-                    "position": 10,
-                    "chance": 7
-                },
-                {
-                    "position": 11,
-                    "chance": 4
-                },
-                {
-                    "position": 12,
-                    "chance": 1
-                },
-                {
-                    "position": 13,
-                    "chance": 0
-                },
-                {
-                    "position": 14,
-                    "chance": 0
-                },
-                {
-                    "position": 15,
-                    "chance": 0
-                },
-                {
-                    "position": 16,
-                    "chance": 0
-                },
-                {
-                    "position": 17,
-                    "chance": 0
-                },
-                {
-                    "position": 18,
-                    "chance": 0
-                }
-            ]
-        },
-        {
-            "team": "Essendon",
-            "topEight": 6,
-            "topFour": 0,
-            "topEightPre": 2,
-            "topFourPre": 0,
-            "wins": 7.81525,
-            "perc": 0.8754091753437763,
-            "positions": [
-                {
-                    "position": 1,
-                    "chance": 0
-                },
-                {
-                    "position": 2,
-                    "chance": 0
-                },
-                {
-                    "position": 3,
-                    "chance": 0
-                },
-                {
-                    "position": 4,
-                    "chance": 0
-                },
-                {
-                    "position": 5,
-                    "chance": 0
-                },
-                {
-                    "position": 6,
-                    "chance": 1
-                },
-                {
-                    "position": 7,
-                    "chance": 1
-                },
-                {
-                    "position": 8,
-                    "chance": 4
-                },
-                {
-                    "position": 9,
-                    "chance": 6
-                },
-                {
-                    "position": 10,
-                    "chance": 10
-                },
-                {
-                    "position": 11,
-                    "chance": 17
-                },
-                {
-                    "position": 12,
-                    "chance": 23
-                },
-                {
-                    "position": 13,
-                    "chance": 23
-                },
-                {
-                    "position": 14,
-                    "chance": 12
-                },
-                {
-                    "position": 15,
-                    "chance": 3
-                },
-                {
-                    "position": 16,
-                    "chance": 0
-                },
-                {
-                    "position": 17,
-                    "chance": 0
-                },
-                {
-                    "position": 18,
-                    "chance": 0
-                }
-            ]
-        },
-        {
-            "team": "Fremantle",
-            "topEight": 0,
-            "topFour": 0,
-            "topEightPre": 7,
-            "topFourPre": 0,
-            "wins": 6.6536,
-            "perc": 0.8998330136831657,
-            "positions": [
-                {
-                    "position": 1,
-                    "chance": 0
-                },
-                {
-                    "position": 2,
-                    "chance": 0
-                },
-                {
-                    "position": 3,
-                    "chance": 0
-                },
-                {
-                    "position": 4,
-                    "chance": 0
-                },
-                {
-                    "position": 5,
-                    "chance": 0
-                },
-                {
-                    "position": 6,
-                    "chance": 0
-                },
-                {
-                    "position": 7,
-                    "chance": 0
-                },
-                {
-                    "position": 8,
-                    "chance": 0
-                },
-                {
-                    "position": 9,
-                    "chance": 1
-                },
-                {
-                    "position": 10,
-                    "chance": 2
-                },
-                {
-                    "position": 11,
-                    "chance": 6
-                },
-                {
-                    "position": 12,
-                    "chance": 11
-                },
-                {
-                    "position": 13,
-                    "chance": 20
-                },
-                {
-                    "position": 14,
-                    "chance": 35
-                },
-                {
-                    "position": 15,
-                    "chance": 18
-                },
-                {
-                    "position": 16,
-                    "chance": 6
-                },
-                {
-                    "position": 17,
-                    "chance": 1
-                },
-                {
-                    "position": 18,
-                    "chance": 0
-                }
-            ]
-        },
-        {
-            "team": "GWS Giants",
-            "topEight": 48,
-            "topFour": 1,
-            "topEightPre": 22,
-            "topFourPre": 0,
-            "wins": 9.3217,
-            "perc": 1.0428244451936124,
-            "positions": [
-                {
-                    "position": 1,
-                    "chance": 0
-                },
-                {
-                    "position": 2,
-                    "chance": 0
-                },
-                {
-                    "position": 3,
-                    "chance": 0
-                },
-                {
-                    "position": 4,
-                    "chance": 1
-                },
-                {
-                    "position": 5,
-                    "chance": 5
-                },
-                {
-                    "position": 6,
-                    "chance": 12
-                },
-                {
-                    "position": 7,
-                    "chance": 15
-                },
-                {
-                    "position": 8,
-                    "chance": 15
-                },
-                {
-                    "position": 9,
-                    "chance": 17
-                },
-                {
-                    "position": 10,
-                    "chance": 16
-                },
-                {
-                    "position": 11,
-                    "chance": 11
-                },
-                {
-                    "position": 12,
-                    "chance": 6
-                },
-                {
-                    "position": 13,
-                    "chance": 2
-                },
-                {
-                    "position": 14,
-                    "chance": 0
-                },
-                {
-                    "position": 15,
-                    "chance": 0
-                },
-                {
-                    "position": 16,
-                    "chance": 0
-                },
-                {
-                    "position": 17,
-                    "chance": 0
-                },
-                {
-                    "position": 18,
-                    "chance": 0
+                    "chance": 0.0
                 }
             ]
         },
         {
             "team": "Geelong",
-            "topEight": 100,
-            "topFour": 89,
-            "topEightPre": 99,
-            "topFourPre": 84,
-            "wins": 12.1144,
-            "perc": 1.3458761855729258,
+            "topEight": 100.0,
+            "topFour": 83.3,
+            "topEightPre": 100.0,
+            "topFourPre": 89.1,
+            "wins": 12.0418,
+            "perc": 1.3367501311434165,
             "positions": [
                 {
                     "position": 1,
-                    "chance": 23
+                    "chance": 18.2
                 },
                 {
                     "position": 2,
-                    "chance": 27
+                    "chance": 23.0
                 },
                 {
                     "position": 3,
-                    "chance": 23
+                    "chance": 23.1
                 },
                 {
                     "position": 4,
-                    "chance": 16
+                    "chance": 19.0
                 },
                 {
                     "position": 5,
-                    "chance": 9
+                    "chance": 15.3
                 },
                 {
                     "position": 6,
-                    "chance": 2
+                    "chance": 1.1
                 },
                 {
                     "position": 7,
-                    "chance": 0
+                    "chance": 0.2
                 },
                 {
                     "position": 8,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 9,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 10,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 11,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 12,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 13,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 14,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 15,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 16,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 17,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 18,
-                    "chance": 0
-                }
-            ]
-        },
-        {
-            "team": "Gold Coast",
-            "topEight": 0,
-            "topFour": 0,
-            "topEightPre": 0,
-            "topFourPre": 0,
-            "wins": 7.0085,
-            "perc": 1.015812958807572,
-            "positions": [
-                {
-                    "position": 1,
-                    "chance": 0
-                },
-                {
-                    "position": 2,
-                    "chance": 0
-                },
-                {
-                    "position": 3,
-                    "chance": 0
-                },
-                {
-                    "position": 4,
-                    "chance": 0
-                },
-                {
-                    "position": 5,
-                    "chance": 0
-                },
-                {
-                    "position": 6,
-                    "chance": 0
-                },
-                {
-                    "position": 7,
-                    "chance": 0
-                },
-                {
-                    "position": 8,
-                    "chance": 0
-                },
-                {
-                    "position": 9,
-                    "chance": 2
-                },
-                {
-                    "position": 10,
-                    "chance": 5
-                },
-                {
-                    "position": 11,
-                    "chance": 10
-                },
-                {
-                    "position": 12,
-                    "chance": 22
-                },
-                {
-                    "position": 13,
-                    "chance": 26
-                },
-                {
-                    "position": 14,
-                    "chance": 19
-                },
-                {
-                    "position": 15,
-                    "chance": 12
-                },
-                {
-                    "position": 16,
-                    "chance": 4
-                },
-                {
-                    "position": 17,
-                    "chance": 0
-                },
-                {
-                    "position": 18,
-                    "chance": 0
-                }
-            ]
-        },
-        {
-            "team": "Hawthorn",
-            "topEight": 0,
-            "topFour": 0,
-            "topEightPre": 1,
-            "topFourPre": 0,
-            "wins": 5.7663,
-            "perc": 0.8592714752974671,
-            "positions": [
-                {
-                    "position": 1,
-                    "chance": 0
-                },
-                {
-                    "position": 2,
-                    "chance": 0
-                },
-                {
-                    "position": 3,
-                    "chance": 0
-                },
-                {
-                    "position": 4,
-                    "chance": 0
-                },
-                {
-                    "position": 5,
-                    "chance": 0
-                },
-                {
-                    "position": 6,
-                    "chance": 0
-                },
-                {
-                    "position": 7,
-                    "chance": 0
-                },
-                {
-                    "position": 8,
-                    "chance": 0
-                },
-                {
-                    "position": 9,
-                    "chance": 0
-                },
-                {
-                    "position": 10,
-                    "chance": 0
-                },
-                {
-                    "position": 11,
-                    "chance": 1
-                },
-                {
-                    "position": 12,
-                    "chance": 4
-                },
-                {
-                    "position": 13,
-                    "chance": 9
-                },
-                {
-                    "position": 14,
-                    "chance": 18
-                },
-                {
-                    "position": 15,
-                    "chance": 39
-                },
-                {
-                    "position": 16,
-                    "chance": 25
-                },
-                {
-                    "position": 17,
-                    "chance": 3
-                },
-                {
-                    "position": 18,
-                    "chance": 0
-                }
-            ]
-        },
-        {
-            "team": "Melbourne",
-            "topEight": 65,
-            "topFour": 2,
-            "topEightPre": 55,
-            "topFourPre": 2,
-            "wins": 9.48075,
-            "perc": 1.1230055264812189,
-            "positions": [
-                {
-                    "position": 1,
-                    "chance": 0
-                },
-                {
-                    "position": 2,
-                    "chance": 0
-                },
-                {
-                    "position": 3,
-                    "chance": 0
-                },
-                {
-                    "position": 4,
-                    "chance": 2
-                },
-                {
-                    "position": 5,
-                    "chance": 8
-                },
-                {
-                    "position": 6,
-                    "chance": 19
-                },
-                {
-                    "position": 7,
-                    "chance": 19
-                },
-                {
-                    "position": 8,
-                    "chance": 17
-                },
-                {
-                    "position": 9,
-                    "chance": 14
-                },
-                {
-                    "position": 10,
-                    "chance": 9
-                },
-                {
-                    "position": 11,
-                    "chance": 6
-                },
-                {
-                    "position": 12,
-                    "chance": 3
-                },
-                {
-                    "position": 13,
-                    "chance": 1
-                },
-                {
-                    "position": 14,
-                    "chance": 0
-                },
-                {
-                    "position": 15,
-                    "chance": 0
-                },
-                {
-                    "position": 16,
-                    "chance": 0
-                },
-                {
-                    "position": 17,
-                    "chance": 0
-                },
-                {
-                    "position": 18,
-                    "chance": 0
-                }
-            ]
-        },
-        {
-            "team": "North Melbourne",
-            "topEight": 0,
-            "topFour": 0,
-            "topEightPre": 0,
-            "topFourPre": 0,
-            "wins": 3.7471,
-            "perc": 0.7581878362520902,
-            "positions": [
-                {
-                    "position": 1,
-                    "chance": 0
-                },
-                {
-                    "position": 2,
-                    "chance": 0
-                },
-                {
-                    "position": 3,
-                    "chance": 0
-                },
-                {
-                    "position": 4,
-                    "chance": 0
-                },
-                {
-                    "position": 5,
-                    "chance": 0
-                },
-                {
-                    "position": 6,
-                    "chance": 0
-                },
-                {
-                    "position": 7,
-                    "chance": 0
-                },
-                {
-                    "position": 8,
-                    "chance": 0
-                },
-                {
-                    "position": 9,
-                    "chance": 0
-                },
-                {
-                    "position": 10,
-                    "chance": 0
-                },
-                {
-                    "position": 11,
-                    "chance": 0
-                },
-                {
-                    "position": 12,
-                    "chance": 0
-                },
-                {
-                    "position": 13,
-                    "chance": 0
-                },
-                {
-                    "position": 14,
-                    "chance": 1
-                },
-                {
-                    "position": 15,
-                    "chance": 2
-                },
-                {
-                    "position": 16,
-                    "chance": 12
-                },
-                {
-                    "position": 17,
-                    "chance": 84
-                },
-                {
-                    "position": 18,
-                    "chance": 0
-                }
-            ]
-        },
-        {
-            "team": "Port Adelaide",
-            "topEight": 100,
-            "topFour": 97,
-            "topEightPre": 100,
-            "topFourPre": 94,
-            "wins": 13.01175,
-            "perc": 1.2661245339938705,
-            "positions": [
-                {
-                    "position": 1,
-                    "chance": 54
-                },
-                {
-                    "position": 2,
-                    "chance": 24
-                },
-                {
-                    "position": 3,
-                    "chance": 13
-                },
-                {
-                    "position": 4,
-                    "chance": 6
-                },
-                {
-                    "position": 5,
-                    "chance": 2
-                },
-                {
-                    "position": 6,
-                    "chance": 1
-                },
-                {
-                    "position": 7,
-                    "chance": 0
-                },
-                {
-                    "position": 8,
-                    "chance": 0
-                },
-                {
-                    "position": 9,
-                    "chance": 0
-                },
-                {
-                    "position": 10,
-                    "chance": 0
-                },
-                {
-                    "position": 11,
-                    "chance": 0
-                },
-                {
-                    "position": 12,
-                    "chance": 0
-                },
-                {
-                    "position": 13,
-                    "chance": 0
-                },
-                {
-                    "position": 14,
-                    "chance": 0
-                },
-                {
-                    "position": 15,
-                    "chance": 0
-                },
-                {
-                    "position": 16,
-                    "chance": 0
-                },
-                {
-                    "position": 17,
-                    "chance": 0
-                },
-                {
-                    "position": 18,
-                    "chance": 0
-                }
-            ]
-        },
-        {
-            "team": "Richmond",
-            "topEight": 100,
-            "topFour": 62,
-            "topEightPre": 98,
-            "topFourPre": 36,
-            "wins": 11.52975,
-            "perc": 1.2120624276321403,
-            "positions": [
-                {
-                    "position": 1,
-                    "chance": 3
-                },
-                {
-                    "position": 2,
-                    "chance": 14
-                },
-                {
-                    "position": 3,
-                    "chance": 18
-                },
-                {
-                    "position": 4,
-                    "chance": 27
-                },
-                {
-                    "position": 5,
-                    "chance": 27
-                },
-                {
-                    "position": 6,
-                    "chance": 8
-                },
-                {
-                    "position": 7,
-                    "chance": 2
-                },
-                {
-                    "position": 8,
-                    "chance": 1
-                },
-                {
-                    "position": 9,
-                    "chance": 0
-                },
-                {
-                    "position": 10,
-                    "chance": 0
-                },
-                {
-                    "position": 11,
-                    "chance": 0
-                },
-                {
-                    "position": 12,
-                    "chance": 0
-                },
-                {
-                    "position": 13,
-                    "chance": 0
-                },
-                {
-                    "position": 14,
-                    "chance": 0
-                },
-                {
-                    "position": 15,
-                    "chance": 0
-                },
-                {
-                    "position": 16,
-                    "chance": 0
-                },
-                {
-                    "position": 17,
-                    "chance": 0
-                },
-                {
-                    "position": 18,
-                    "chance": 0
-                }
-            ]
-        },
-        {
-            "team": "St Kilda",
-            "topEight": 66,
-            "topFour": 3,
-            "topEightPre": 81,
-            "topFourPre": 12,
-            "wins": 9.58465,
-            "perc": 1.1086969004447884,
-            "positions": [
-                {
-                    "position": 1,
-                    "chance": 0
-                },
-                {
-                    "position": 2,
-                    "chance": 0
-                },
-                {
-                    "position": 3,
-                    "chance": 0
-                },
-                {
-                    "position": 4,
-                    "chance": 3
-                },
-                {
-                    "position": 5,
-                    "chance": 8
-                },
-                {
-                    "position": 6,
-                    "chance": 17
-                },
-                {
-                    "position": 7,
-                    "chance": 20
-                },
-                {
-                    "position": 8,
-                    "chance": 18
-                },
-                {
-                    "position": 9,
-                    "chance": 16
-                },
-                {
-                    "position": 10,
-                    "chance": 10
-                },
-                {
-                    "position": 11,
-                    "chance": 5
-                },
-                {
-                    "position": 12,
-                    "chance": 2
-                },
-                {
-                    "position": 13,
-                    "chance": 0
-                },
-                {
-                    "position": 14,
-                    "chance": 0
-                },
-                {
-                    "position": 15,
-                    "chance": 0
-                },
-                {
-                    "position": 16,
-                    "chance": 0
-                },
-                {
-                    "position": 17,
-                    "chance": 0
-                },
-                {
-                    "position": 18,
-                    "chance": 0
-                }
-            ]
-        },
-        {
-            "team": "Sydney",
-            "topEight": 0,
-            "topFour": 0,
-            "topEightPre": 0,
-            "topFourPre": 0,
-            "wins": 5.27115,
-            "perc": 0.8092872595206443,
-            "positions": [
-                {
-                    "position": 1,
-                    "chance": 0
-                },
-                {
-                    "position": 2,
-                    "chance": 0
-                },
-                {
-                    "position": 3,
-                    "chance": 0
-                },
-                {
-                    "position": 4,
-                    "chance": 0
-                },
-                {
-                    "position": 5,
-                    "chance": 0
-                },
-                {
-                    "position": 6,
-                    "chance": 0
-                },
-                {
-                    "position": 7,
-                    "chance": 0
-                },
-                {
-                    "position": 8,
-                    "chance": 0
-                },
-                {
-                    "position": 9,
-                    "chance": 0
-                },
-                {
-                    "position": 10,
-                    "chance": 0
-                },
-                {
-                    "position": 11,
-                    "chance": 0
-                },
-                {
-                    "position": 12,
-                    "chance": 1
-                },
-                {
-                    "position": 13,
-                    "chance": 3
-                },
-                {
-                    "position": 14,
-                    "chance": 7
-                },
-                {
-                    "position": 15,
-                    "chance": 24
-                },
-                {
-                    "position": 16,
-                    "chance": 52
-                },
-                {
-                    "position": 17,
-                    "chance": 12
-                },
-                {
-                    "position": 18,
-                    "chance": 0
+                    "chance": 0.0
                 }
             ]
         },
         {
             "team": "West Coast",
-            "topEight": 97,
-            "topFour": 55,
-            "topEightPre": 99,
-            "topFourPre": 78,
-            "wins": 11.47265,
-            "perc": 1.1484801044832238,
+            "topEight": 99.8,
+            "topFour": 63.2,
+            "topEightPre": 97.4,
+            "topFourPre": 54.6,
+            "wins": 11.7924,
+            "perc": 1.1538339854025756,
             "positions": [
                 {
                     "position": 1,
-                    "chance": 3
+                    "chance": 4.0
                 },
                 {
                     "position": 2,
-                    "chance": 9
+                    "chance": 11.1
                 },
                 {
                     "position": 3,
-                    "chance": 19
+                    "chance": 19.7
                 },
                 {
                     "position": 4,
-                    "chance": 24
+                    "chance": 28.3
                 },
                 {
                     "position": 5,
-                    "chance": 22
+                    "chance": 24.4
                 },
                 {
                     "position": 6,
-                    "chance": 11
+                    "chance": 9.1
                 },
                 {
                     "position": 7,
-                    "chance": 6
+                    "chance": 2.1
                 },
                 {
                     "position": 8,
-                    "chance": 3
+                    "chance": 0.9
                 },
                 {
                     "position": 9,
-                    "chance": 2
+                    "chance": 0.2
                 },
                 {
                     "position": 10,
-                    "chance": 1
+                    "chance": 0.0
                 },
                 {
                     "position": 11,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 12,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 13,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 14,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 15,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 16,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 17,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 18,
-                    "chance": 0
+                    "chance": 0.0
+                }
+            ]
+        },
+        {
+            "team": "Richmond",
+            "topEight": 100.0,
+            "topFour": 62.2,
+            "topEightPre": 99.8,
+            "topFourPre": 62.1,
+            "wins": 11.254000000000001,
+            "perc": 1.2194462577297671,
+            "positions": [
+                {
+                    "position": 1,
+                    "chance": 2.7
+                },
+                {
+                    "position": 2,
+                    "chance": 13.8
+                },
+                {
+                    "position": 3,
+                    "chance": 20.1
+                },
+                {
+                    "position": 4,
+                    "chance": 25.6
+                },
+                {
+                    "position": 5,
+                    "chance": 33.9
+                },
+                {
+                    "position": 6,
+                    "chance": 3.6
+                },
+                {
+                    "position": 7,
+                    "chance": 0.3
+                },
+                {
+                    "position": 8,
+                    "chance": 0.0
+                },
+                {
+                    "position": 9,
+                    "chance": 0.0
+                },
+                {
+                    "position": 10,
+                    "chance": 0.0
+                },
+                {
+                    "position": 11,
+                    "chance": 0.0
+                },
+                {
+                    "position": 12,
+                    "chance": 0.0
+                },
+                {
+                    "position": 13,
+                    "chance": 0.0
+                },
+                {
+                    "position": 14,
+                    "chance": 0.0
+                },
+                {
+                    "position": 15,
+                    "chance": 0.0
+                },
+                {
+                    "position": 16,
+                    "chance": 0.0
+                },
+                {
+                    "position": 17,
+                    "chance": 0.0
+                },
+                {
+                    "position": 18,
+                    "chance": 0.0
+                }
+            ]
+        },
+        {
+            "team": "GWS Giants",
+            "topEight": 68.1,
+            "topFour": 0.9,
+            "topEightPre": 47.3,
+            "topFourPre": 1.4,
+            "wins": 9.7204,
+            "perc": 1.0438935617454483,
+            "positions": [
+                {
+                    "position": 1,
+                    "chance": 0.0
+                },
+                {
+                    "position": 2,
+                    "chance": 0.0
+                },
+                {
+                    "position": 3,
+                    "chance": 0.0
+                },
+                {
+                    "position": 4,
+                    "chance": 0.9
+                },
+                {
+                    "position": 5,
+                    "chance": 5.5
+                },
+                {
+                    "position": 6,
+                    "chance": 24.6
+                },
+                {
+                    "position": 7,
+                    "chance": 20.5
+                },
+                {
+                    "position": 8,
+                    "chance": 16.6
+                },
+                {
+                    "position": 9,
+                    "chance": 14.9
+                },
+                {
+                    "position": 10,
+                    "chance": 11.2
+                },
+                {
+                    "position": 11,
+                    "chance": 4.3
+                },
+                {
+                    "position": 12,
+                    "chance": 1.3
+                },
+                {
+                    "position": 13,
+                    "chance": 0.1
+                },
+                {
+                    "position": 14,
+                    "chance": 0.0
+                },
+                {
+                    "position": 15,
+                    "chance": 0.0
+                },
+                {
+                    "position": 16,
+                    "chance": 0.0
+                },
+                {
+                    "position": 17,
+                    "chance": 0.0
+                },
+                {
+                    "position": 18,
+                    "chance": 0.0
+                }
+            ]
+        },
+        {
+            "team": "St Kilda",
+            "topEight": 78.8,
+            "topFour": 2.4,
+            "topEightPre": 67.8,
+            "topFourPre": 3.8,
+            "wins": 9.662,
+            "perc": 1.1178390524171826,
+            "positions": [
+                {
+                    "position": 1,
+                    "chance": 0.0
+                },
+                {
+                    "position": 2,
+                    "chance": 0.0
+                },
+                {
+                    "position": 3,
+                    "chance": 0.1
+                },
+                {
+                    "position": 4,
+                    "chance": 2.3
+                },
+                {
+                    "position": 5,
+                    "chance": 8.8
+                },
+                {
+                    "position": 6,
+                    "chance": 29.9
+                },
+                {
+                    "position": 7,
+                    "chance": 20.7
+                },
+                {
+                    "position": 8,
+                    "chance": 17.0
+                },
+                {
+                    "position": 9,
+                    "chance": 11.8
+                },
+                {
+                    "position": 10,
+                    "chance": 6.7
+                },
+                {
+                    "position": 11,
+                    "chance": 2.1
+                },
+                {
+                    "position": 12,
+                    "chance": 0.6
+                },
+                {
+                    "position": 13,
+                    "chance": 0.0
+                },
+                {
+                    "position": 14,
+                    "chance": 0.0
+                },
+                {
+                    "position": 15,
+                    "chance": 0.0
+                },
+                {
+                    "position": 16,
+                    "chance": 0.0
+                },
+                {
+                    "position": 17,
+                    "chance": 0.0
+                },
+                {
+                    "position": 18,
+                    "chance": 0.0
+                }
+            ]
+        },
+        {
+            "team": "Collingwood",
+            "topEight": 69.4,
+            "topFour": 0.0,
+            "topEightPre": 76.9,
+            "topFourPre": 4.6,
+            "wins": 8.943,
+            "perc": 1.0764506238008342,
+            "positions": [
+                {
+                    "position": 1,
+                    "chance": 0.0
+                },
+                {
+                    "position": 2,
+                    "chance": 0.0
+                },
+                {
+                    "position": 3,
+                    "chance": 0.0
+                },
+                {
+                    "position": 4,
+                    "chance": 0.0
+                },
+                {
+                    "position": 5,
+                    "chance": 1.3
+                },
+                {
+                    "position": 6,
+                    "chance": 15.7
+                },
+                {
+                    "position": 7,
+                    "chance": 27.5
+                },
+                {
+                    "position": 8,
+                    "chance": 24.9
+                },
+                {
+                    "position": 9,
+                    "chance": 16.5
+                },
+                {
+                    "position": 10,
+                    "chance": 10.4
+                },
+                {
+                    "position": 11,
+                    "chance": 3.3
+                },
+                {
+                    "position": 12,
+                    "chance": 0.4
+                },
+                {
+                    "position": 13,
+                    "chance": 0.0
+                },
+                {
+                    "position": 14,
+                    "chance": 0.0
+                },
+                {
+                    "position": 15,
+                    "chance": 0.0
+                },
+                {
+                    "position": 16,
+                    "chance": 0.0
+                },
+                {
+                    "position": 17,
+                    "chance": 0.0
+                },
+                {
+                    "position": 18,
+                    "chance": 0.0
                 }
             ]
         },
         {
             "team": "Western Bulldogs",
-            "topEight": 29,
-            "topFour": 0,
-            "topEightPre": 39,
-            "topFourPre": 1,
-            "wins": 8.8671,
-            "perc": 1.0306270225883007,
+            "topEight": 40.6,
+            "topFour": 0.0,
+            "topEightPre": 28.2,
+            "topFourPre": 0.0,
+            "wins": 8.9382,
+            "perc": 1.0386810799386184,
             "positions": [
                 {
                     "position": 1,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 2,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 3,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 4,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 5,
-                    "chance": 1
+                    "chance": 0.2
                 },
                 {
                     "position": 6,
-                    "chance": 3
+                    "chance": 6.3
                 },
                 {
                     "position": 7,
-                    "chance": 10
+                    "chance": 16.1
                 },
                 {
                     "position": 8,
-                    "chance": 15
+                    "chance": 18.0
                 },
                 {
                     "position": 9,
-                    "chance": 21
+                    "chance": 22.8
                 },
                 {
                     "position": 10,
-                    "chance": 24
+                    "chance": 20.3
                 },
                 {
                     "position": 11,
-                    "chance": 15
+                    "chance": 9.7
                 },
                 {
                     "position": 12,
-                    "chance": 8
+                    "chance": 4.3
                 },
                 {
                     "position": 13,
-                    "chance": 3
+                    "chance": 1.8
                 },
                 {
                     "position": 14,
-                    "chance": 1
+                    "chance": 0.4
                 },
                 {
                     "position": 15,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 16,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 17,
-                    "chance": 0
+                    "chance": 0.0
                 },
                 {
                     "position": 18,
-                    "chance": 0
+                    "chance": 0.0
+                }
+            ]
+        },
+        {
+            "team": "Melbourne",
+            "topEight": 36.1,
+            "topFour": 0.0,
+            "topEightPre": 65.9,
+            "topFourPre": 2.6,
+            "wins": 8.5712,
+            "perc": 1.07133558071553,
+            "positions": [
+                {
+                    "position": 1,
+                    "chance": 0.0
+                },
+                {
+                    "position": 2,
+                    "chance": 0.0
+                },
+                {
+                    "position": 3,
+                    "chance": 0.0
+                },
+                {
+                    "position": 4,
+                    "chance": 0.0
+                },
+                {
+                    "position": 5,
+                    "chance": 0.4
+                },
+                {
+                    "position": 6,
+                    "chance": 7.6
+                },
+                {
+                    "position": 7,
+                    "chance": 11.3
+                },
+                {
+                    "position": 8,
+                    "chance": 16.8
+                },
+                {
+                    "position": 9,
+                    "chance": 17.5
+                },
+                {
+                    "position": 10,
+                    "chance": 20.3
+                },
+                {
+                    "position": 11,
+                    "chance": 14.4
+                },
+                {
+                    "position": 12,
+                    "chance": 6.7
+                },
+                {
+                    "position": 13,
+                    "chance": 3.8
+                },
+                {
+                    "position": 14,
+                    "chance": 1.2
+                },
+                {
+                    "position": 15,
+                    "chance": 0.1
+                },
+                {
+                    "position": 16,
+                    "chance": 0.0
+                },
+                {
+                    "position": 17,
+                    "chance": 0.0
+                },
+                {
+                    "position": 18,
+                    "chance": 0.0
+                }
+            ]
+        },
+        {
+            "team": "Carlton",
+            "topEight": 3.2,
+            "topFour": 0.0,
+            "topEightPre": 10.2,
+            "topFourPre": 0.0,
+            "wins": 7.5142,
+            "perc": 0.9749459133871716,
+            "positions": [
+                {
+                    "position": 1,
+                    "chance": 0.0
+                },
+                {
+                    "position": 2,
+                    "chance": 0.0
+                },
+                {
+                    "position": 3,
+                    "chance": 0.0
+                },
+                {
+                    "position": 4,
+                    "chance": 0.0
+                },
+                {
+                    "position": 5,
+                    "chance": 0.0
+                },
+                {
+                    "position": 6,
+                    "chance": 0.0
+                },
+                {
+                    "position": 7,
+                    "chance": 0.6
+                },
+                {
+                    "position": 8,
+                    "chance": 2.6
+                },
+                {
+                    "position": 9,
+                    "chance": 5.8
+                },
+                {
+                    "position": 10,
+                    "chance": 10.4
+                },
+                {
+                    "position": 11,
+                    "chance": 26.3
+                },
+                {
+                    "position": 12,
+                    "chance": 23.0
+                },
+                {
+                    "position": 13,
+                    "chance": 18.3
+                },
+                {
+                    "position": 14,
+                    "chance": 8.9
+                },
+                {
+                    "position": 15,
+                    "chance": 3.8
+                },
+                {
+                    "position": 16,
+                    "chance": 0.4
+                },
+                {
+                    "position": 17,
+                    "chance": 0.0
+                },
+                {
+                    "position": 18,
+                    "chance": 0.0
+                }
+            ]
+        },
+        {
+            "team": "Essendon",
+            "topEight": 2.8,
+            "topFour": 0.0,
+            "topEightPre": 6.3,
+            "topFourPre": 0.0,
+            "wins": 7.07,
+            "perc": 0.8753581371521557,
+            "positions": [
+                {
+                    "position": 1,
+                    "chance": 0.0
+                },
+                {
+                    "position": 2,
+                    "chance": 0.0
+                },
+                {
+                    "position": 3,
+                    "chance": 0.0
+                },
+                {
+                    "position": 4,
+                    "chance": 0.0
+                },
+                {
+                    "position": 5,
+                    "chance": 0.0
+                },
+                {
+                    "position": 6,
+                    "chance": 0.1
+                },
+                {
+                    "position": 7,
+                    "chance": 0.7
+                },
+                {
+                    "position": 8,
+                    "chance": 2.0
+                },
+                {
+                    "position": 9,
+                    "chance": 5.5
+                },
+                {
+                    "position": 10,
+                    "chance": 12.2
+                },
+                {
+                    "position": 11,
+                    "chance": 16.5
+                },
+                {
+                    "position": 12,
+                    "chance": 23.3
+                },
+                {
+                    "position": 13,
+                    "chance": 23.4
+                },
+                {
+                    "position": 14,
+                    "chance": 12.7
+                },
+                {
+                    "position": 15,
+                    "chance": 3.6
+                },
+                {
+                    "position": 16,
+                    "chance": 0.1
+                },
+                {
+                    "position": 17,
+                    "chance": 0.0
+                },
+                {
+                    "position": 18,
+                    "chance": 0.0
+                }
+            ]
+        },
+        {
+            "team": "Gold Coast",
+            "topEight": 1.2,
+            "topFour": 0.0,
+            "topEightPre": 0.2,
+            "topFourPre": 0.0,
+            "wins": 6.6012,
+            "perc": 1.0228333174975004,
+            "positions": [
+                {
+                    "position": 1,
+                    "chance": 0.0
+                },
+                {
+                    "position": 2,
+                    "chance": 0.0
+                },
+                {
+                    "position": 3,
+                    "chance": 0.0
+                },
+                {
+                    "position": 4,
+                    "chance": 0.0
+                },
+                {
+                    "position": 5,
+                    "chance": 0.0
+                },
+                {
+                    "position": 6,
+                    "chance": 0.0
+                },
+                {
+                    "position": 7,
+                    "chance": 0.1
+                },
+                {
+                    "position": 8,
+                    "chance": 1.1
+                },
+                {
+                    "position": 9,
+                    "chance": 4.5
+                },
+                {
+                    "position": 10,
+                    "chance": 6.3
+                },
+                {
+                    "position": 11,
+                    "chance": 16.4
+                },
+                {
+                    "position": 12,
+                    "chance": 24.1
+                },
+                {
+                    "position": 13,
+                    "chance": 21.2
+                },
+                {
+                    "position": 14,
+                    "chance": 15.7
+                },
+                {
+                    "position": 15,
+                    "chance": 7.6
+                },
+                {
+                    "position": 16,
+                    "chance": 3.0
+                },
+                {
+                    "position": 17,
+                    "chance": 0.1
+                },
+                {
+                    "position": 18,
+                    "chance": 0.0
+                }
+            ]
+        },
+        {
+            "team": "Fremantle",
+            "topEight": 0.0,
+            "topFour": 0.0,
+            "topEightPre": 0.3,
+            "topFourPre": 0.0,
+            "wins": 6.4338,
+            "perc": 0.8942852369690121,
+            "positions": [
+                {
+                    "position": 1,
+                    "chance": 0.0
+                },
+                {
+                    "position": 2,
+                    "chance": 0.0
+                },
+                {
+                    "position": 3,
+                    "chance": 0.0
+                },
+                {
+                    "position": 4,
+                    "chance": 0.0
+                },
+                {
+                    "position": 5,
+                    "chance": 0.0
+                },
+                {
+                    "position": 6,
+                    "chance": 0.0
+                },
+                {
+                    "position": 7,
+                    "chance": 0.0
+                },
+                {
+                    "position": 8,
+                    "chance": 0.0
+                },
+                {
+                    "position": 9,
+                    "chance": 0.4
+                },
+                {
+                    "position": 10,
+                    "chance": 2.0
+                },
+                {
+                    "position": 11,
+                    "chance": 4.0
+                },
+                {
+                    "position": 12,
+                    "chance": 10.4
+                },
+                {
+                    "position": 13,
+                    "chance": 19.2
+                },
+                {
+                    "position": 14,
+                    "chance": 34.1
+                },
+                {
+                    "position": 15,
+                    "chance": 23.5
+                },
+                {
+                    "position": 16,
+                    "chance": 5.7
+                },
+                {
+                    "position": 17,
+                    "chance": 0.7
+                },
+                {
+                    "position": 18,
+                    "chance": 0.0
+                }
+            ]
+        },
+        {
+            "team": "Sydney",
+            "topEight": 0.0,
+            "topFour": 0.0,
+            "topEightPre": 0.0,
+            "topFourPre": 0.0,
+            "wins": 6.1142,
+            "perc": 0.8484841964157027,
+            "positions": [
+                {
+                    "position": 1,
+                    "chance": 0.0
+                },
+                {
+                    "position": 2,
+                    "chance": 0.0
+                },
+                {
+                    "position": 3,
+                    "chance": 0.0
+                },
+                {
+                    "position": 4,
+                    "chance": 0.0
+                },
+                {
+                    "position": 5,
+                    "chance": 0.0
+                },
+                {
+                    "position": 6,
+                    "chance": 0.0
+                },
+                {
+                    "position": 7,
+                    "chance": 0.0
+                },
+                {
+                    "position": 8,
+                    "chance": 0.0
+                },
+                {
+                    "position": 9,
+                    "chance": 0.0
+                },
+                {
+                    "position": 10,
+                    "chance": 0.3
+                },
+                {
+                    "position": 11,
+                    "chance": 3.0
+                },
+                {
+                    "position": 12,
+                    "chance": 5.5
+                },
+                {
+                    "position": 13,
+                    "chance": 10.7
+                },
+                {
+                    "position": 14,
+                    "chance": 21.3
+                },
+                {
+                    "position": 15,
+                    "chance": 44.8
+                },
+                {
+                    "position": 16,
+                    "chance": 13.3
+                },
+                {
+                    "position": 17,
+                    "chance": 1.2
+                },
+                {
+                    "position": 18,
+                    "chance": 0.0
+                }
+            ]
+        },
+        {
+            "team": "Hawthorn",
+            "topEight": 0.0,
+            "topFour": 0.0,
+            "topEightPre": 0.0,
+            "topFourPre": 0.0,
+            "wins": 4.8402,
+            "perc": 0.8008802033855225,
+            "positions": [
+                {
+                    "position": 1,
+                    "chance": 0.0
+                },
+                {
+                    "position": 2,
+                    "chance": 0.0
+                },
+                {
+                    "position": 3,
+                    "chance": 0.0
+                },
+                {
+                    "position": 4,
+                    "chance": 0.0
+                },
+                {
+                    "position": 5,
+                    "chance": 0.0
+                },
+                {
+                    "position": 6,
+                    "chance": 0.0
+                },
+                {
+                    "position": 7,
+                    "chance": 0.0
+                },
+                {
+                    "position": 8,
+                    "chance": 0.0
+                },
+                {
+                    "position": 9,
+                    "chance": 0.0
+                },
+                {
+                    "position": 10,
+                    "chance": 0.0
+                },
+                {
+                    "position": 11,
+                    "chance": 0.1
+                },
+                {
+                    "position": 12,
+                    "chance": 0.5
+                },
+                {
+                    "position": 13,
+                    "chance": 1.4
+                },
+                {
+                    "position": 14,
+                    "chance": 5.0
+                },
+                {
+                    "position": 15,
+                    "chance": 14.3
+                },
+                {
+                    "position": 16,
+                    "chance": 63.0
+                },
+                {
+                    "position": 17,
+                    "chance": 15.7
+                },
+                {
+                    "position": 18,
+                    "chance": 0.0
+                }
+            ]
+        },
+        {
+            "team": "North Melbourne",
+            "topEight": 0.0,
+            "topFour": 0.0,
+            "topEightPre": 0.0,
+            "topFourPre": 0.0,
+            "wins": 3.7278,
+            "perc": 0.758277339065019,
+            "positions": [
+                {
+                    "position": 1,
+                    "chance": 0.0
+                },
+                {
+                    "position": 2,
+                    "chance": 0.0
+                },
+                {
+                    "position": 3,
+                    "chance": 0.0
+                },
+                {
+                    "position": 4,
+                    "chance": 0.0
+                },
+                {
+                    "position": 5,
+                    "chance": 0.0
+                },
+                {
+                    "position": 6,
+                    "chance": 0.0
+                },
+                {
+                    "position": 7,
+                    "chance": 0.0
+                },
+                {
+                    "position": 8,
+                    "chance": 0.0
+                },
+                {
+                    "position": 9,
+                    "chance": 0.0
+                },
+                {
+                    "position": 10,
+                    "chance": 0.0
+                },
+                {
+                    "position": 11,
+                    "chance": 0.0
+                },
+                {
+                    "position": 12,
+                    "chance": 0.0
+                },
+                {
+                    "position": 13,
+                    "chance": 0.0
+                },
+                {
+                    "position": 14,
+                    "chance": 0.7
+                },
+                {
+                    "position": 15,
+                    "chance": 2.3
+                },
+                {
+                    "position": 16,
+                    "chance": 14.6
+                },
+                {
+                    "position": 17,
+                    "chance": 80.8
+                },
+                {
+                    "position": 18,
+                    "chance": 1.6
+                }
+            ]
+        },
+        {
+            "team": "Adelaide",
+            "topEight": 0.0,
+            "topFour": 0.0,
+            "topEightPre": 0.0,
+            "topFourPre": 0.0,
+            "wins": 1.8602,
+            "perc": 0.6392700847174101,
+            "positions": [
+                {
+                    "position": 1,
+                    "chance": 0.0
+                },
+                {
+                    "position": 2,
+                    "chance": 0.0
+                },
+                {
+                    "position": 3,
+                    "chance": 0.0
+                },
+                {
+                    "position": 4,
+                    "chance": 0.0
+                },
+                {
+                    "position": 5,
+                    "chance": 0.0
+                },
+                {
+                    "position": 6,
+                    "chance": 0.0
+                },
+                {
+                    "position": 7,
+                    "chance": 0.0
+                },
+                {
+                    "position": 8,
+                    "chance": 0.0
+                },
+                {
+                    "position": 9,
+                    "chance": 0.0
+                },
+                {
+                    "position": 10,
+                    "chance": 0.0
+                },
+                {
+                    "position": 11,
+                    "chance": 0.0
+                },
+                {
+                    "position": 12,
+                    "chance": 0.0
+                },
+                {
+                    "position": 13,
+                    "chance": 0.0
+                },
+                {
+                    "position": 14,
+                    "chance": 0.0
+                },
+                {
+                    "position": 15,
+                    "chance": 0.0
+                },
+                {
+                    "position": 16,
+                    "chance": 0.0
+                },
+                {
+                    "position": 17,
+                    "chance": 1.5
+                },
+                {
+                    "position": 18,
+                    "chance": 98.4
                 }
             ]
         }
