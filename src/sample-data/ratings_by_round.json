@@ -1254,75 +1254,153 @@
             "ratings": [
                 {
                     "team": "Richmond",
-                    "rating": 104.82765332462938
+                    "rating": 109.77020443283917
                 },
                 {
                     "team": "Western Bulldogs",
-                    "rating": 98.762088827392
+                    "rating": 101.68278510318932
                 },
                 {
                     "team": "Essendon",
-                    "rating": 79.80072387745548
+                    "rating": 76.40096516994062
                 },
                 {
                     "team": "Adelaide",
-                    "rating": 80.2571497478581
+                    "rating": 77.00953299714412
                 },
                 {
                     "team": "GWS Giants",
-                    "rating": 88.13583749752388
+                    "rating": 87.51444999669847
                 },
                 {
                     "team": "Gold Coast",
-                    "rating": 84.20067015505637
+                    "rating": 82.2675602067418
                 },
                 {
                     "team": "North Melbourne",
-                    "rating": 69.14350560718745
+                    "rating": 62.19134080958328
                 },
                 {
                     "team": "Hawthorn",
-                    "rating": 75.2951587816148
+                    "rating": 70.39354504215308
                 },
                 {
                     "team": "West Coast",
-                    "rating": 97.08796150275249
+                    "rating": 99.45061533700334
                 },
                 {
                     "team": "Collingwood",
-                    "rating": 90.24533706577381
+                    "rating": 90.32711608769844
                 },
                 {
                     "team": "Geelong",
-                    "rating": 114.51184603433363
+                    "rating": 122.68246137911149
                 },
                 {
                     "team": "Brisbane",
-                    "rating": 101.55917727646927
+                    "rating": 105.41223636862568
                 },
                 {
                     "team": "Carlton",
-                    "rating": 87.51118445655801
+                    "rating": 86.68157927541068
                 },
                 {
                     "team": "Port Adelaide",
-                    "rating": 96.86649010243931
+                    "rating": 99.15532013658573
                 },
                 {
                     "team": "Sydney",
-                    "rating": 85.83307936692867
+                    "rating": 84.44410582257156
                 },
                 {
                     "team": "St Kilda",
-                    "rating": 91.68705250185923
+                    "rating": 92.2494033358123
                 },
                 {
                     "team": "Fremantle",
-                    "rating": 87.53533165094484
+                    "rating": 86.71377553459311
                 },
                 {
                     "team": "Melbourne",
-                    "rating": 86.73975222322332
+                    "rating": 85.65300296429778
+                }
+            ]
+        },
+        {
+            "round": 18,
+            "year": 2020,
+            "ratings": [
+                {
+                    "team": "Richmond",
+                    "rating": 110.66449186657023
+                },
+                {
+                    "team": "Western Bulldogs",
+                    "rating": 99.01870281823656
+                },
+                {
+                    "team": "Essendon",
+                    "rating": 75.71387712245225
+                },
+                {
+                    "team": "Adelaide",
+                    "rating": 84.10795668959807
+                },
+                {
+                    "team": "GWS Giants",
+                    "rating": 87.10662044266377
+                },
+                {
+                    "team": "Gold Coast",
+                    "rating": 82.10960353719986
+                },
+                {
+                    "team": "North Melbourne",
+                    "rating": 63.22187081593893
+                },
+                {
+                    "team": "Hawthorn",
+                    "rating": 75.03854479077026
+                },
+                {
+                    "team": "West Coast",
+                    "rating": 98.25777970257386
+                },
+                {
+                    "team": "Collingwood",
+                    "rating": 92.33640368363031
+                },
+                {
+                    "team": "Geelong",
+                    "rating": 108.67500749239277
+                },
+                {
+                    "team": "Brisbane",
+                    "rating": 103.21395769456116
+                },
+                {
+                    "team": "Carlton",
+                    "rating": 83.66037751481805
+                },
+                {
+                    "team": "Port Adelaide",
+                    "rating": 100.95333685744255
+                },
+                {
+                    "team": "Sydney",
+                    "rating": 84.17829894883678
+                },
+                {
+                    "team": "St Kilda",
+                    "rating": 90.51723430203786
+                },
+                {
+                    "team": "Fremantle",
+                    "rating": 93.45696644219336
+                },
+                {
+                    "team": "Melbourne",
+                    "rating": 87.76896927808343
                 }
             ]
         }
