@@ -14,6 +14,7 @@ import {
     getMinRating,
     getMaxRating,
     sortByRating,
+    getRoundLabel,
     NOTIONAL_AVG_RATING,
 } from '../../core';
 import { ChartDescription, ChartTitle, TeamSvg } from '../../components';
@@ -27,7 +28,7 @@ const { rounds } = ratingsByRound;
 
 const roundOptions = rounds.reverse().map(
     ({ round }, i) => ({
-        label: `Round ${round}${i === 0 ? ' (current)' : ''}`,
+        label: getRoundLabel(round, i),
         value: round,
     }),
 );

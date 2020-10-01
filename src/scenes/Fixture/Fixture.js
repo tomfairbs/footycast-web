@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import ReactSelect from 'react-select';
 
 import { predictionFixture } from '../../sample-data';
-import { groupMatchesByDate } from '../../core';
+import { getRoundLabel, groupMatchesByDate } from '../../core';
 import { ChartTitle, ChartDescription } from '../../components';
 import Match from './Match';
 
@@ -17,15 +17,19 @@ const MatchDate = styled.h2`
 `;
 
 const Fixture = () => {
-    const remainingRounds = [...new Set(predictionFixture.map(match => `${match.round}`))];
+    const remainingRounds = [...new Set(predictionFixture.map(match => match.round))];
     const roundOptions = remainingRounds.map(
-        round => ({ label: `Round ${round}`, value: round }),
+        (round, i) => ({
+            label: getRoundLabel(round, i),
+            value: round,
+        }),
     );
+
     const [selectedRound, setSelectedRound] = useState(roundOptions[0]);
 
     const matchDates = groupMatchesByDate(
         predictionFixture.filter(
-            match => match.round.toString() === selectedRound.value,
+            match => match.round === selectedRound.value,
         )
     );
 

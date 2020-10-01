@@ -1,4 +1,5 @@
 import { format, parseISO } from 'date-fns';
+import { FINALS_ROUNDS } from './constants';
 
 export const sortByRating = (a, b) => (
     a.rating < b.rating ? -1 : 1
@@ -31,4 +32,15 @@ export const addOrdinalSuffix = n => {
     return n + (s[(v - 20) % 10] || s[v] || s[0]);
 };
 
+export const getRoundLabel = (round, i) => {
+    const curRoundSuffix = i === 0 ? ' (current)' : '';
 
+    // Regular season labels
+    if (round < 19) {
+        return `Round ${round}${curRoundSuffix}`;
+    }
+
+    // Finals labels
+    const label = FINALS_ROUNDS.find(({ roundNum }) => roundNum === round).label;
+    return `${label}${curRoundSuffix}`;
+};

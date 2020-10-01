@@ -62,3 +62,10 @@ export const TEAM_COLORS = {
     [TEAMS.SYDNEY]: { primary: '#EE1E31', secondary: '#EE1E31' },
     [TEAMS.WEST_COAST]: { primary: '#003087', secondary: '#F2A900' },
 };
+
+export const FINALS_ROUNDS = [
+    { roundNum: 19, label: 'EF/QF' },
+    { roundNum: 20, label: 'SF' },
+    { roundNum: 21, label: 'PF' },
+    { roundNum: 22, label: 'GF' },
+];
